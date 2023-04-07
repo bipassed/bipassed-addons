@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<HediffDef>
+		<defName>RapeshroomHediff</defName>
+		<hediffClass>HediffWithComps</hediffClass>
+		<label>forced libido</label>
+		<description>Highly increased libido, the genitals will think louder than the mind.</description>
+		<defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+		<scenarioCanAdd>true</scenarioCanAdd>
+		<maxSeverity>1.0</maxSeverity>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-1.0</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_CauseMentalState">
+				<animalMentalState>RandomRape</animalMentalState>
+				<animalMentalStateAlias>RandomRape</animalMentalStateAlias>
+				<mtbDaysToCauseMentalState>0.00000001</mtbDaysToCauseMentalState>
+				<humanMentalState>RandomRape</humanMentalState>
+				<letterDef>NeutralEvent</letterDef>
+			</li>
+		</comps>
+		<stages>
+			<li>
+				<restFallFactor>1.33</restFallFactor>
+				<statOffsets>
+					<SexFrequency>2147483640</SexFrequency>
+					<SexSatisfaction>100</SexSatisfaction>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+</Defs>

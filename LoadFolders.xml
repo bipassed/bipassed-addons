@@ -1,0 +1,7 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<loadFolders>
+	<v1.4>
+		<li IfModActive="rim.job.world">1.4/Mods/RimJobWorld</li>
+		<li IfModActive="vanillaexpanded.vwenl">1.4/Mods/Non-Lethal</li>
+	</v1.4>
+</loadFolders>

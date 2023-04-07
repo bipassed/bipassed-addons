@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ModMetaData>
+    <packageId>bipassed.addons</packageId>
+        <name>Bipassed Addons</name>
+        <author>bipassed</author>
+        <supportedVersions>
+            <li>1.4</li>
+        </supportedVersions>
+        <description>Collection of things I wanted in my playthroughs. Has no hard requirements, so everything should just turn on if the proper mod is loaded.</description>
+</ModMetaData>
