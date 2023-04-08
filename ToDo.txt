@@ -1,5 +1,4 @@
 GAMEPLAY
-Lobotomy - Nullifies any incoming mood buff or debuff (except a +100), -40% consciousness
 Adult Breast Feeding - Let adults breastfeed
 
 APPAREL
