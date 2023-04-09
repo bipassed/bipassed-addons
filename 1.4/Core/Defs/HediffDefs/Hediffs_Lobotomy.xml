@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-    <HediffDef>
+  <HediffDef>
         <defName>Lobotomy</defName>
         <label>lobotomy</label>
         <description>The removal of the frontal lobe, preventing any sort of coherent thought.</description>
@@ -16,9 +16,17 @@
             </capMods>
         </li>
         </stages>
-  </HediffDef>
+    </HediffDef>
 
-  <RecipeDef ParentName="SurgeryFlesh">
+  <RecipeDef Abstract="True" Name="Lobotomy">
+    <effectWorking>Surgery</effectWorking>
+    <soundWorking>Recipe_Surgery</soundWorking>
+    <workSpeedStat>MedicalOperationSpeed</workSpeedStat>
+    <workSkill>Medicine</workSkill>
+    <workSkillLearnFactor>16</workSkillLearnFactor>
+  </RecipeDef>
+
+  <RecipeDef ParentName="Lobotomy">
     <defName>Lobotomize</defName>
     <label>lobotomize</label>
     <description>Render a creature incoherent by removing the frontal lobe.</description>
