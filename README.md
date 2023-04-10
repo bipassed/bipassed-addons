@@ -3,6 +3,7 @@
 
 ## Core
 **Lobotomy:** Simple and fairly inexpensive way to stop a colonist or prisoner from complaining so much. Chance of death, 25%.
+
 **Nutrient Slop:** Cheaper yet more foul version of nutrient paste. Turns 0.1 nutrition into 0.9, at the cost of a 15 day long -30 mood debuff. You have to be desperate or evil to willingly cook this.
 
  ## [Vanilla Weapons Expanded - Non-Lethal](https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354)
