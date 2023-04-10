@@ -5,5 +5,6 @@
 		<li IfModActive="rim.job.world">1.4/Mods/RimJobWorld</li>
 		<li IfModActive="vanillaexpanded.vwenl">1.4/Mods/Vanilla Weapons Expanded - Non-Lethal</li>
 		<li IfModActive="vanillaexpanded.vappe">1.4/Mods/Vanilla Apparel Expanded</li>
+		<li IfModActive="dineful.trahspanda.capacitydeprivationported">1.4/Mods/Capacity Deprivation and Prisoner Bindings Port</li>
 	</v1.4>
 </loadFolders>
