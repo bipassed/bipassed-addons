@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="TRAHS_Apparel_Eyefold" or defName="TRAHS_Apparel_Earplugs"]</xpath>
+        <value>
+            <equippedStatOffsets>
+                <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.15</SlaveSuppressionOffset>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="TRAHS_Apparel_FullHeadCovering"]</xpath>
+        <value>
+            <equippedStatOffsets>
+                <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.35</SlaveSuppressionOffset>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="TRAHS_Apparel_LegBinding" or defName="TRAHS_Apparel_ArmBinding"]</xpath>
+        <value>
+            <equippedStatOffsets>
+                <SlaveSuppressionOffset MayRequire="Ludeon.RimWorld.Ideology">0.15</SlaveSuppressionOffset>
+            </equippedStatOffsets>
+        </value>
+    </Operation>
+</Patch>
