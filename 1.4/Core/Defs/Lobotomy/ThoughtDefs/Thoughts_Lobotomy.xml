@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>LobotomyThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>Lobotomy</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>lobotomy</label>
+                <description>Huh? Huh whuh? Huh... Whuh?</description>
+                <baseMoodEffect>1000</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

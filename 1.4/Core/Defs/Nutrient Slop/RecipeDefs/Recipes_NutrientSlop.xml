@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+    <RecipeDef ParentName="CookMealBase">
+        <defName>CookMealNutrientSlop</defName>
+        <label>cook nutrient slop</label>
+        <description>Cook a disgusting, rancid "meal" from one ingredient.</description>
+        <workAmount>200</workAmount>
+        <jobString>Cooking nutrient slop.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>FoodRaw</li>
+                    </categories>
+                </filter>
+                <count>0.1</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealNutrientSlop>1</MealNutrientSlop>
+        </products>
+        <workSkill>Cooking</workSkill>
+    </RecipeDef>
+
+    <RecipeDef ParentName="CookMealBase">
+        <defName>CookMealNutrientSlopBulk</defName>
+        <label>cook nutrient slop x4</label>
+        <description>Cook 4 disgusting, rancid "meal" from one ingredient.</description>
+        <workAmount>800</workAmount>
+        <jobString>Cooking nutrient slop in bulk.</jobString>
+        <workSpeedStat>CookSpeed</workSpeedStat>
+        <requiredGiverWorkType>Cooking</requiredGiverWorkType>
+        <effectWorking>Cook</effectWorking>
+        <soundWorking>Recipe_CookMeal</soundWorking>
+        <allowMixingIngredients>true</allowMixingIngredients>
+        <ingredientValueGetterClass>IngredientValueGetter_Nutrition</ingredientValueGetterClass>
+        <ingredients>
+            <li>
+                <filter>
+                    <categories>
+                        <li>FoodRaw</li>
+                    </categories>
+                </filter>
+                <count>0.4</count>
+            </li>
+        </ingredients>
+        <products>
+            <MealNutrientSlop>4</MealNutrientSlop>
+        </products>
+        <workSkill>Cooking</workSkill>
+    </RecipeDef>
+</Defs>

@@ -14,6 +14,3 @@ WEAPONRY
 Libido Rifle - Injects a serum that causes the victim to rape anything and anyone it can (RimJobWorld)
 Tranquilizer Turret - Similar to the non-lethal turret, but uses dart gun projectile (Non-Lethal)
 Furrifier - Forces a pawn to transform into a random xenotype from Anthrosonae (Anthrosonae)
-
-FOOD
-Nutrient slop - Attempts to extract the most possible nutrition out of as little food as possible. Turns 0.1 nutrition into 0.9, -30 mood penalty (Core)
