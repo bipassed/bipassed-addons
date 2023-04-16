@@ -17,6 +17,14 @@
 
  **Arm and Leg Warmers:** An extra bit of cold protection, as well as just being aesthetically pleasing for lore relevancy. After all, can't have a femboy prisoner without thigh highs.
 
+## [Vanilla Furniture Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143)
+
+**Learning on Computers:** Gives the old and modern computers bills, allowing pawns to use them to learn new skills. Requires the pawn to be capable of research.
+
 ## [Capacity Deprivation and Prisoner Bindings Port](https://steamcommunity.com/sharedfiles/filedetails/?id=2884504605)
 
 **Slave Suppression Patch:** Adds a slave suppression offset to each of the bindings.
+
+## [RimJobWorld](https://www.loverslab.com/files/file/7257-rimjobworld/)
+
+**Rapeshroom:** New drug made from 10 humpshroom and 1 neutroamine. Induces a near-constant random rape mental break for about a day. Why you would ever use this outside of religious or lore reasons is beyond me.
