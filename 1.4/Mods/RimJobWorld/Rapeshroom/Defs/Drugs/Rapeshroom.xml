@@ -1,0 +1,155 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+	<!--Consumable item-->
+	<ThingDef ParentName="DrugBase">
+		<defName>Rapeshroom</defName>
+		<label>Rape shroom</label>
+		<description>A mushroom that is the result of intricately combining humpshroom and neutroamine. While priced highly, it's not worth selling due to the incredibly potent effects it has on someone.</description>
+		<tradeability>Sellable</tradeability>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<tickerType>Rare</tickerType>
+		<graphicData>
+			<texPath>Things/Item/Humpshroom/HumpshroomCollected</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<thingCategories>
+			<li>PlantFoodRaw</li>
+		</thingCategories>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>0.1</Mass>
+			<DeteriorationRate>12</DeteriorationRate>
+			<Nutrition>0.85</Nutrition>
+		</statBases>
+		<techLevel>Neolithic</techLevel>
+		<ingestible>
+			<baseIngestTicks>100</baseIngestTicks>
+			<chairSearchRadius>4</chairSearchRadius>
+			<preferability>RawTasty</preferability>
+			<tasteThought></tasteThought>
+			<foodType>Fungus</foodType>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+			<optimalityOffsetHumanlikes>-6</optimalityOffsetHumanlikes>
+			<optimalityOffsetFeedingAnimals>-11</optimalityOffsetFeedingAnimals>
+			<ingestEffect>EatVegetarian</ingestEffect>
+			<ingestSound>RawVegetable_Eat</ingestSound>
+			<joy>0.9</joy>
+			<joyKind>Social</joyKind>
+			<nurseable>true</nurseable>
+			<drugCategory>Social</drugCategory>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>RapeshroomHediff</hediffDef>
+					<severity>1.0</severity>
+					<toleranceChemical>RapeshroomChemical</toleranceChemical>
+				</li>
+				<li Class="IngestionOutcomeDoer_OffsetNeed">
+					<need>Sex</need>
+					<offset>-0.5</offset>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+			<li Class="CompProperties_Forbiddable" />
+			<li Class="CompProperties_Ingredients" />
+			<li Class="CompProperties_Rottable">
+				<daysToRotStart>10</daysToRotStart>
+				<rotDestroys>true</rotDestroys>
+			</li>
+			<li Class="CompProperties_Drug">
+				<chemical>RapeshroomChemical</chemical>
+				<addictiveness>0.1</addictiveness>
+				<minToleranceToAddict>0.15</minToleranceToAddict>
+				<existingAddictionSeverityOffset>0.1</existingAddictionSeverityOffset>
+				<needLevelOffset>1</needLevelOffset>
+				<listOrder>30</listOrder>
+			</li>
+		</comps>
+		<recipeMaker>
+			<recipeUsers>
+				<li>CraftingSpot</li>
+				<li>DrugLab</li>
+			</recipeUsers>
+			<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+			<workSkill>Cooking</workSkill>
+		</recipeMaker>
+		<costList>
+			<HumpShroom>10</HumpShroom>
+			<Neutroamine>1</Neutroamine>
+		</costList>
+	</ThingDef>
+
+	<!-- Ambrosia addiction -->
+	<ChemicalDef>
+		<defName>RapeshroomChemical</defName>
+		<label>rapeshroom</label>
+		<addictionHediff>RapeshroomAddiction</addictionHediff>
+		<toleranceHediff>RapeshroomTolerance</toleranceHediff>
+		<generateAddictionGenes>false</generateAddictionGenes>
+	</ChemicalDef>
+
+	<NeedDef ParentName="DrugAddictionNeedBase">
+		<defName>Chemical_Rapeshroom</defName>
+		<needClass>Need_Chemical</needClass>
+		<label>rapeshroom</label>
+		<description>Person is now hooked on rapeshrooms. Without them, their bedroom performance may fall.</description>
+		<listPriority>10</listPriority>
+	</NeedDef>
+
+	<HediffDef ParentName="DrugToleranceBase">
+		<defName>RapeshroomTolerance</defName>
+		<label>rapeshroom tolerance</label>
+		<description>Rapeshroom effects tolerance.</description>
+		<isBad>false</isBad>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.010</severityPerDay>
+			</li>
+			<li Class="HediffCompProperties_DrugEffectFactor">
+				<chemical>Chemical_Rapeshroom</chemical>
+			</li>
+		</comps>
+	</HediffDef>
+
+	<HediffDef ParentName="AddictionBase">
+		<defName>RapeshroomAddiction</defName>
+		<hediffClass>Hediff_Addiction</hediffClass>
+		<label>rapeshroom addiction</label>
+		<description>Rapeshroom effects addiction.</description>
+		<causesNeed>Chemical_Rapeshroom</causesNeed>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>-0.1</severityPerDay>
+				<showDaysToRecover>true</showDaysToRecover>
+			</li>
+		</comps>
+		<stages>
+			<li>
+			</li>
+			<li>
+				<label>withdrawal</label>
+				<statOffsets>
+					<SexSatisfaction>-1</SexSatisfaction>
+				</statOffsets>
+			</li>
+		</stages>
+	</HediffDef>
+
+	<ThoughtDef>
+		<defName>RapeshroomWithdrawal</defName>
+		<workerClass>ThoughtWorker_Hediff</workerClass>
+		<hediff>RapeshroomAddiction</hediff>
+		<validWhileDespawned>true</validWhileDespawned>
+		<stages>
+			<li>
+				<visible>false</visible>
+			</li>
+			<li>
+				<label>rapeshroom withdrawal</label>
+				<description>I just feel nothing down there... God, I need it again.</description>
+				<baseMoodEffect>-20</baseMoodEffect>
+			</li>
+		</stages>
+	</ThoughtDef>
+</Defs>

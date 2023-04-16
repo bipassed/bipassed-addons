@@ -1,0 +1,86 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]/statBases</xpath>
+        <value>
+            <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]/comps</xpath>
+        <value>
+            <li Class="CompProperties_Breakdownable"/>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]/building</xpath>
+        <value>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]</xpath>
+        <value>
+            <recipes>
+                <li>PlayShootingGames</li>
+                <li>PlayFightingGames</li>
+                <li>WatchConstructionVideos</li>
+                <li>PlayMiningGames</li>
+                <li>WatchCookingVideos</li>
+                <li>WatchPlantVideos</li>
+                <li>WatchAnimalVideos</li>
+                <li>WatchCraftingVideos</li>
+                <li>PracticeArt</li>
+                <li>WatchMedicalVideos</li>
+                <li>WatchSocialVideos</li>
+                <li>WatchIntellectualVideos</li>
+            </recipes>
+            <inspectorTabs>
+                <li>ITab_Bills</li>
+            </inspectorTabs>
+            <thingClass>Building_WorkTable</thingClass>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]</xpath>
+        <value>
+            <recipes>
+                <li>PlayShootingGames</li>
+                <li>PlayFightingGames</li>
+                <li>WatchConstructionVideos</li>
+                <li>PlayMiningGames</li>
+                <li>WatchCookingVideos</li>
+                <li>WatchPlantVideos</li>
+                <li>WatchAnimalVideos</li>
+                <li>WatchCraftingVideos</li>
+                <li>PracticeArt</li>
+                <li>WatchMedicalVideos</li>
+                <li>WatchSocialVideos</li>
+                <li>WatchIntellectualVideos</li>
+            </recipes>
+            <inspectorTabs>
+                <li>ITab_Bills</li>
+            </inspectorTabs>
+            <thingClass>Building_WorkTable</thingClass>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]/statBases</xpath>
+        <value>
+            <WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]/comps</xpath>
+        <value>
+            <li Class="CompProperties_Breakdownable"/>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd">
+        <xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]/building</xpath>
+        <value>
+            <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+        </value>
+    </Operation>
+</Patch>

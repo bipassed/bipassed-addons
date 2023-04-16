@@ -1,17 +1,10 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
-        <ThingDef ParentName="ApparelMakeableBase">
-		<defName>Footwear_LegStockings</defName>
-		<label>thigh highs</label>
-		<description>A simple pair stockings, for your legs.</description>
-		<graphicData>
-			<texPath>Things/LegSocks</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
-		</graphicData>
+	<ThingDef Name="ApparelFemboyBase" ParentName="ApparelMakeableBase" Abstract="True">
 		<techLevel>Medieval</techLevel>
 		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.1</generateCommonality>
+		<generateCommonality>0.1</generateCommonality>
 		<stuffCategories>
 			<li>Fabric</li>
 		</stuffCategories>
@@ -22,12 +15,31 @@
 			<Mass>0.05</Mass>
 			<StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
 			<StuffEffectMultiplierInsulation_Heat>0.16</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>1.0</EquipDelay>
+			<EquipDelay>1.0</EquipDelay>
 		</statBases>
 		<thingCategories Inherit="False">
 			<li>VAE_BootsAndGloves</li>
 		</thingCategories>
+		<recipeMaker>
+			<researchPrerequisite>ComplexClothing</researchPrerequisite>
+			<recipeUsers Inherit="False">
+				<li>ElectricTailoringBench</li>
+				<li>HandTailoringBench</li>
+			</recipeUsers>
+		</recipeMaker>
+		<colorGenerator Class="ColorGenerator_StandardApparel" />
+	</ThingDef>
+
+	<ThingDef ParentName="ApparelFemboyBase">
+		<defName>Footwear_LegStockings</defName>
+		<label>thigh highs</label>
+		<description>A simple pair stockings, for your legs.</description>
+		<graphicData>
+			<texPath>Things/LegSocks</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Feet</li>
@@ -42,19 +54,11 @@
 			<defaultOutfitTags>
 				<li>Worker</li>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
-		<recipeMaker>
-			<researchPrerequisite>ComplexClothing</researchPrerequisite>
-			<recipeUsers Inherit="False">
-				<li>ElectricTailoringBench</li>
-				<li>HandTailoringBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
+	</ThingDef>
 
-    <ThingDef ParentName="ApparelMakeableBase">
+	<ThingDef ParentName="ApparelFemboyBase">
 		<defName>Armwear_ArmStockings</defName>
 		<label>arm stockings</label>
 		<description>A simple pair stockings, for your arms.</description>
@@ -62,25 +66,8 @@
 			<texPath>Things/ArmSocks</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
 		</graphicData>
-		<techLevel>Medieval</techLevel>
-		<tradeability>Sellable</tradeability>
-        <generateCommonality>0.1</generateCommonality>
-		<stuffCategories>
-			<li>Fabric</li>
-		</stuffCategories>
-		<costStuffCount>15</costStuffCount>
-		<statBases>
-			<MaxHitPoints>60</MaxHitPoints>
-			<WorkToMake>600</WorkToMake>
-			<Mass>0.05</Mass>
-			<StuffEffectMultiplierInsulation_Cold>0.8</StuffEffectMultiplierInsulation_Cold>
-			<StuffEffectMultiplierInsulation_Heat>0.16</StuffEffectMultiplierInsulation_Heat>
-            <EquipDelay>1.0</EquipDelay>
-		</statBases>
-		<thingCategories Inherit="False">
-			<li>VAE_BootsAndGloves</li>
-		</thingCategories>
 		<apparel>
+			<developmentalStageFilter>Child, Adult</developmentalStageFilter>
 			<countsAsClothingForNudity>false</countsAsClothingForNudity>
 			<bodyPartGroups>
 				<li>Hands</li>
@@ -95,16 +82,8 @@
 			<defaultOutfitTags>
 				<li>Worker</li>
 				<li>Soldier</li>
-            </defaultOutfitTags>
+			</defaultOutfitTags>
 		</apparel>
-		<recipeMaker>
-			<researchPrerequisite>ComplexClothing</researchPrerequisite>
-			<recipeUsers Inherit="False">
-				<li>ElectricTailoringBench</li>
-				<li>HandTailoringBench</li>
-			</recipeUsers>
-		</recipeMaker>
-		<colorGenerator Class="ColorGenerator_StandardApparel" />
-    </ThingDef>
+	</ThingDef>
 
 </Defs>
