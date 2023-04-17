@@ -8,5 +8,6 @@
 		<li IfModActive="vanillaexpanded.vappe">1.4/Mods/Vanilla Apparel Expanded</li>
 		<li IfModActive="dineful.trahspanda.capacitydeprivationported">1.4/Mods/Capacity Deprivation and Prisoner Bindings Port</li>
 		<li IfModActive="vanillaexpanded.vfecore">1.4/Mods/Vanilla Furniture Expanded</li>
+		<li IfModActive="cammy.identity.gender">1.4/Mods/Identity Dysphoria</li>
 	</v1.4>
 </loadFolders>

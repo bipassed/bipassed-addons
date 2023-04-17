@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThoughtDef[defName="DysphoricTraitGood"]/stages</xpath>
+        <value>
+            <stages>
+                <li>
+                    <label>Euphoria (Minor)</label>
+                    <description>I'm feeling pretty good.</description>
+                    <baseMoodEffect>2</baseMoodEffect>
+                </li>
+                <li>
+                    <label>Euphoria (Moderate)</label>
+                    <description>Wow, is that me in the mirror?</description>
+                    <baseMoodEffect>4</baseMoodEffect>
+                </li>
+                <li>
+                    <label>Euphoria (High)</label>
+                    <description>I'm so close to how I feel on the inside...</description>
+                    <baseMoodEffect>7</baseMoodEffect>
+                </li>
+                <li>
+                    <label>Euphoria (Content)</label>
+                    <description>I'm finally who I want to be.</description>
+                    <baseMoodEffect>14</baseMoodEffect>
+                </li>
+            </stages>
+        </value>
+    </Operation>
+
+</Patch>
