@@ -25,6 +25,16 @@
 
 **Slave Suppression Patch:** Adds a slave suppression offset to each of the bindings.
 
+## [Identity: Dysphoria](https://steamcommunity.com/sharedfiles/filedetails/?id=2749597658)
+
+**Balanced Transgender Thought:** Lowers the mood bonus of being affirming from 5, 8, 14, 25 to 2, 4, 7, 14
+
+**If RimJobWorld is active, the following changes will be applied:**
+- Removal of top surgery and associated
+- RJW parts now provide benefits to MascStat and FemStat, depending on part
+
+**NOTE:** The RimJobWorld patch will cause errors relating to no hediff found and no prerequisite found. These are **safe to ignore**. I'll attempt to fix one of the errors later.
+
 ## [RimJobWorld](https://www.loverslab.com/files/file/7257-rimjobworld/)
 
 **Rapeshroom:** New drug made from 10 humpshroom and 1 neutroamine. Induces a near-constant random rape mental break for about a day. Why you would ever use this outside of religious or lore reasons is beyond me.
