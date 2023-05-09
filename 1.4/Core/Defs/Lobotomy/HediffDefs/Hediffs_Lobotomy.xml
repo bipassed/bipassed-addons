@@ -11,11 +11,34 @@
         <capMods>
           <li>
             <capacity>Consciousness</capacity>
-            <offset>-0.4</offset>
+            <offset>-0.30</offset>
           </li>
         </capMods>
       </li>
     </stages>
+    <comp>
+      <li Class="HediffCompProperties_CauseMentalState">
+        <animalMentalState>Berserk</animalMentalState>
+        <animalMentalStateAlias>Berserk</animalMentalStateAlias>
+        <mtbDaysToCauseMentalState>120</mtbDaysToCauseMentalState>
+        <humanMentalState>Berserk</humanMentalState>
+        <letterDef>ThreatSmall</letterDef>
+      </li>
+      <li Class="HediffCompProperties_CauseMentalState">
+        <animalMentalState>Wander_Psychotic</animalMentalState>
+        <animalMentalStateAlias>Wander_Psychotic</animalMentalStateAlias>
+        <mtbDaysToCauseMentalState>120</mtbDaysToCauseMentalState>
+        <humanMentalState>Wander_Psychotic</humanMentalState>
+        <letterDef>ThreatSmall</letterDef>
+      </li>
+      <li Class="HediffCompProperties_CauseMentalState">
+        <animalMentalState>Wander_Sad</animalMentalState>
+        <animalMentalStateAlias>Wander_Sad</animalMentalStateAlias>
+        <mtbDaysToCauseMentalState>120</mtbDaysToCauseMentalState>
+        <humanMentalState>Wander_Sad</humanMentalState>
+        <letterDef>ThreatSmall</letterDef>
+      </li>
+    </comp>
   </HediffDef>
 
   <RecipeDef ParentName="SurgeryInstallImplantBase">
@@ -25,7 +48,7 @@
     <jobString>Removing frontal lobe.</jobString>
     <isViolation>true</isViolation>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
-    <deathOnFailedSurgeryChance>0.25</deathOnFailedSurgeryChance>
+    <deathOnFailedSurgeryChance>0.80</deathOnFailedSurgeryChance>
     <appliedOnFixedBodyParts>
       <li>Brain</li>
     </appliedOnFixedBodyParts>

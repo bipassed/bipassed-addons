@@ -19,7 +19,6 @@
                 <li Class="PatchOperationRemove">                    <!-- Recipes -->
                     <xpath>/Defs/RecipeDef[defName="InstallBreast" or defName="TopSurgery"]</xpath>
                 </li>
-
                 <!-- BREAST AND PENIS FEM AND MASC STAT OFFSETS-->
                 <!-- PENISES -->
                 <li Class="PatchOperationAdd">
