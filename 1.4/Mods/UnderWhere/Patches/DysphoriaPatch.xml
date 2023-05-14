@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <!-- Gender-Neutral Clothing -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="UnderWhere_Panties"]/comps</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="UnderWhere_Boxers"]/comps</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="UnderWhere_Bra"]/comps</xpath>
+    </Operation>
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/ThingDef[defName="UnderWhere_Chestwrap"]/comps</xpath>
+    </Operation>
+
+    <!-- FEM AND MASC-->
+    <Operation Class="PatchOperationAdd" MayRequire="cammy.identity.gender">
+        <xpath>/Defs/ThingDef[defName="UnderWhere_Panties"]/equippedStatOffsets</xpath>
+        <value>
+            <FemStat>5</FemStat>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd" MayRequire="cammy.identity.gender">
+        <xpath>/Defs/ThingDef[defName="UnderWhere_Boxers"]/equippedStatOffsets</xpath>
+        <value>
+            <MascStat>5</MascStat>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd" MayRequire="cammy.identity.gender">
+        <xpath>/Defs/ThingDef[defName="UnderWhere_Bra"]/equippedStatOffsets</xpath>
+        <value>
+            <FemStat>5</FemStat>
+        </value>
+    </Operation>
+    <Operation Class="PatchOperationAdd" MayRequire="cammy.identity.gender">
+        <xpath>/Defs/ThingDef[defName="UnderWhere_Chestwrap"]/equippedStatOffsets</xpath>
+        <value>
+            <FemStat>5</FemStat>
+        </value>
+    </Operation>
+</Patch>

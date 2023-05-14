@@ -9,5 +9,6 @@
 		<li IfModActive="dineful.trahspanda.capacitydeprivationported">1.4/Mods/Capacity Deprivation and Prisoner Bindings Port</li>
 		<li IfModActive="vanillaexpanded.vfecore">1.4/Mods/Vanilla Furniture Expanded</li>
 		<li IfModActive="cammy.identity.gender">1.4/Mods/Identity Dysphoria</li>
+		<li IfModActive="malistaticy.underwhere">1.4/Mods/UnderWhere</li>
 	</v1.4>
 </loadFolders>

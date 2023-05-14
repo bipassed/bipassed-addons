@@ -2,7 +2,7 @@
 <Defs>
 
 	<ThingDef Name="ApparelFemboyBase" ParentName="ApparelMakeableBase" Abstract="True">
-		<techLevel>Medieval</techLevel>
+		<techLevel>Industrial</techLevel>
 		<tradeability>Sellable</tradeability>
 		<generateCommonality>0.1</generateCommonality>
 		<stuffCategories>
@@ -20,6 +20,11 @@
 		<thingCategories Inherit="False">
 			<li>VAE_BootsAndGloves</li>
 		</thingCategories>
+		<equippedStatOffsets>
+			<FemStat MayRequire="cammy.identity.gender">5</FemStat>
+			<MentalBreakThreshold>-0.01</MentalBreakThreshold>
+			<MoveSpeed>0.01</MoveSpeed>
+		</equippedStatOffsets>
 		<recipeMaker>
 			<researchPrerequisite>ComplexClothing</researchPrerequisite>
 			<recipeUsers Inherit="False">
