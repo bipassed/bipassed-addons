@@ -4,6 +4,8 @@ Adds a bunch of little things that don't deserve an entire mod slot on their own
 ## [Core](https://store.steampowered.com/app/294100/RimWorld/)
 **Lobotomy:** Simple and fairly inexpensive way to stop a colonist or prisoner from complaining so much. Lowers consciousness by 30%, chance of death on failure is 100%. Causes chance of berserk, psychotic wander and sad wander every 120 days or so if successful. **NOTE:** This gives a config error, it can be safely ignored.
 
+**Vertical Hydroponics:** Adds a 1x1 building that grows 4 plants in once space.
+
 **Nutrient Slop:** Cheaper yet more foul version of nutrient paste. Turns 0.1 nutrition into 0.9, at the cost of a 15 day long -30 mood debuff. You have to be desperate or evil to willingly cook this.
 
 **Cheaper Flagstone:** Changes the flagstone recipes from 4 to 2 stone blocks.
