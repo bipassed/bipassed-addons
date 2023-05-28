@@ -1,13 +1,14 @@
-
 # bipassed addons
 
 Adds a bunch of little things that don't deserve an entire mod slot on their own.
 ## [Core](https://store.steampowered.com/app/294100/RimWorld/)
-**Lobotomy:** Simple and fairly inexpensive way to stop a colonist or prisoner from complaining so much. Lowers consciousness by 30%, chance of death on failure is 80%. Causes chance of beserk, psychotic wander and sad wander every 120 days or so.
+**Lobotomy:** Simple and fairly inexpensive way to stop a colonist or prisoner from complaining so much. Lowers consciousness by 30%, chance of death on failure is 100%. Causes chance of berserk, psychotic wander and sad wander every 120 days or so if successful. **NOTE:** This gives a config error, it can be safely ignored.
 
 **Nutrient Slop:** Cheaper yet more foul version of nutrient paste. Turns 0.1 nutrition into 0.9, at the cost of a 15 day long -30 mood debuff. You have to be desperate or evil to willingly cook this.
 
 **Cheaper Flagstone:** Changes the flagstone recipes from 4 to 2 stone blocks.
+
+**Cheaper Bridges:** Reduces the price of all bridges from 12 to 6.
 
 ## [Vanilla Weapons Expanded - Non-Lethal](https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354)
 **Non-Lethal Turrets:** Adds a single turret building that fires slightly faster and one extra bullet per burst at the cost of the bullets themselves being the same as the non-lethal pistol.
@@ -17,6 +18,9 @@ Adds a bunch of little things that don't deserve an entire mod slot on their own
 
 ## [Vanilla Furniture Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143)
 **Learning on Computers:** Gives the old and modern computers bills, allowing pawns to use them to learn new skills. Requires the pawn to be capable of research.
+
+## [Vanilla Furniture Expanded - Architect](https://steamcommunity.com/sharedfiles/filedetails/?id=2608762624)
+**Cheaper Bridges:** Reduces the price of all bridges from 12 to 6.
 
 ## [Capacity Deprivation and Prisoner Bindings Port](https://steamcommunity.com/sharedfiles/filedetails/?id=2884504605)
 **Slave Suppression Patch:** Adds a slave suppression offset to each of the bindings.
