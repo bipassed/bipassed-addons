@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName="Bridge"]/costList</xpath>
+        <value>
+            <costList>
+                <WoodLog>6</WoodLog>
+            </costList>
+        </value>
+    </Operation>
+
+</Patch>

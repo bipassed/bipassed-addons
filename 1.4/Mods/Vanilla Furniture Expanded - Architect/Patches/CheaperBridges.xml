@@ -1,0 +1,58 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName="VFEArch_BridgeSandstone"]/costList</xpath>
+        <value>
+            <costList>
+                <BlocksSandstone>6</BlocksSandstone>
+            </costList>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName="VFEArch_BridgeGranite"]/costList</xpath>
+        <value>
+            <costList>
+                <BlocksGranite>6</BlocksGranite>
+            </costList>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName="VFEArch_BridgeLimestone"]/costList</xpath>
+        <value>
+            <costList>
+                <BlocksLimestone>6</BlocksLimestone>
+            </costList>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName="VFEArch_BridgeSlate"]/costList</xpath>
+        <value>
+            <costList>
+                <BlocksSlate>6</BlocksSlate>
+            </costList>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName="VFEArch_BridgeMarble"]/costList</xpath>
+        <value>
+            <costList>
+                <BlocksMarble>6</BlocksMarble>
+            </costList>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/TerrainDef[defName="VFEArch_BridgeSteel"]/costList</xpath>
+        <value>
+            <costList>
+                <Steel>6</Steel>
+            </costList>
+        </value>
+    </Operation>
+
+</Patch>

@@ -10,5 +10,6 @@
 		<li IfModActive="vanillaexpanded.vfecore">1.4/Mods/Vanilla Furniture Expanded</li>
 		<li IfModActive="cammy.identity.gender">1.4/Mods/Identity Dysphoria</li>
 		<li IfModActive="malistaticy.underwhere">1.4/Mods/UnderWhere</li>
+		<li IfModActive="vanillaexpanded.vfearchitect">1.4/Mods/Vanilla Furniture Expanded - Architect</li>
 	</v1.4>
 </loadFolders>

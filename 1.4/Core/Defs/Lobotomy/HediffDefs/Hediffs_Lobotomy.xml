@@ -6,6 +6,7 @@
     <label>lobotomy</label>
     <description>The removal of the frontal lobe, preventing any sort of coherent thought.</description>
     <initialSeverity>1</initialSeverity>
+    <hediffClass>HediffWithComps</hediffClass>
     <stages>
       <li>
         <capMods>
@@ -16,7 +17,7 @@
         </capMods>
       </li>
     </stages>
-    <comp>
+    <comps>
       <li Class="HediffCompProperties_CauseMentalState">
         <animalMentalState>Berserk</animalMentalState>
         <animalMentalStateAlias>Berserk</animalMentalStateAlias>
@@ -38,7 +39,7 @@
         <humanMentalState>Wander_Sad</humanMentalState>
         <letterDef>ThreatSmall</letterDef>
       </li>
-    </comp>
+    </comps>
   </HediffDef>
 
   <RecipeDef ParentName="SurgeryInstallImplantBase">
@@ -48,7 +49,7 @@
     <jobString>Removing frontal lobe.</jobString>
     <isViolation>true</isViolation>
     <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
-    <deathOnFailedSurgeryChance>0.80</deathOnFailedSurgeryChance>
+    <deathOnFailedSurgeryChance>1.00</deathOnFailedSurgeryChance>
     <appliedOnFixedBodyParts>
       <li>Brain</li>
     </appliedOnFixedBodyParts>
