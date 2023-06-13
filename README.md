@@ -18,6 +18,8 @@ Adds a bunch of little things that don't deserve an entire mod slot on their own
 ## [Vanilla Apparel Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1814987817)
 **Arm and Leg Warmers:** An extra bit of cold protection, as well as just being aesthetically pleasing for lore relevancy. After all, can't have a femboy prisoner without thigh highs. If **Identity: Dysphoria** is active, both arm and leg warmers will provide a small femininity boost.
 
+**Handwear and Footwear:** Children can wear them now!
+
 ## [Vanilla Furniture Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=1718190143)
 **Learning on Computers:** Gives the old and modern computers bills, allowing pawns to use them to learn new skills. Requires the pawn to be capable of research.
 
