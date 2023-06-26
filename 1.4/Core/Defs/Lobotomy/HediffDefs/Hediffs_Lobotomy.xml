@@ -19,24 +19,10 @@
     </stages>
     <comps>
       <li Class="HediffCompProperties_CauseMentalState">
-        <animalMentalState>Berserk</animalMentalState>
-        <animalMentalStateAlias>Berserk</animalMentalStateAlias>
-        <mtbDaysToCauseMentalState>120</mtbDaysToCauseMentalState>
-        <humanMentalState>Berserk</humanMentalState>
-        <letterDef>ThreatSmall</letterDef>
-      </li>
-      <li Class="HediffCompProperties_CauseMentalState">
         <animalMentalState>Wander_Psychotic</animalMentalState>
         <animalMentalStateAlias>Wander_Psychotic</animalMentalStateAlias>
-        <mtbDaysToCauseMentalState>120</mtbDaysToCauseMentalState>
+        <mtbDaysToCauseMentalState>30</mtbDaysToCauseMentalState>
         <humanMentalState>Wander_Psychotic</humanMentalState>
-        <letterDef>ThreatSmall</letterDef>
-      </li>
-      <li Class="HediffCompProperties_CauseMentalState">
-        <animalMentalState>Wander_Sad</animalMentalState>
-        <animalMentalStateAlias>Wander_Sad</animalMentalStateAlias>
-        <mtbDaysToCauseMentalState>120</mtbDaysToCauseMentalState>
-        <humanMentalState>Wander_Sad</humanMentalState>
         <letterDef>ThreatSmall</letterDef>
       </li>
     </comps>

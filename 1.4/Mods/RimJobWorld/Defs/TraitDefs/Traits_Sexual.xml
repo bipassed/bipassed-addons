@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>Hyposexual</defName>
+        <commonality>0.1</commonality>
+        <commonalityFemale>0.08</commonalityFemale>
+        <degreeDatas>
+            <li>
+                <label>hyposexual</label>
+                <description>[PAWN_nameDef] hates sex, and never wants to engage in it.</description>
+                <statOffsets>
+                    <SexFrequency>0</SexFrequency>
+                </statOffsets>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>Ultrasexual</defName>
+        <commonality>0.02</commonality>
+        <commonalityFemale>0.02</commonalityFemale>
+        <degreeDatas>
+            <li>
+                <label>ultrasexual</label>
+                <description>[PAWN_nameDef] craves sex and always needs more. Can regain psyfocus only through sex.</description>
+                <statOffsets>
+                    <Vulnerability>1.0</Vulnerability>
+                    <SexFrequency>10.0</SexFrequency>
+                </statOffsets>
+                <allowedMeditationFocusTypes>
+                    <li>Sex</li>
+                </allowedMeditationFocusTypes>
+            </li>
+        </degreeDatas>
+        <conflictingTraits>
+            <li>DislikesMen</li>
+            <li>DislikesWomen</li>
+        </conflictingTraits>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+    </TraitDef>
+
+    <TraitDef>
+        <defName>InstinctBreeder</defName>
+        <commonality>0.0002</commonality>
+        <commonalityFemale>0.0002</commonalityFemale>
+        <degreeDatas>
+            <li>
+                <label>instinct breeder</label>
+                <description>[PAWN_nameDef]'s instincts call for them to have sex, constantly. Can regain psyfocus only through sex.</description>
+                <statOffsets>
+                    <Vulnerability>100.0</Vulnerability>
+                    <SexFrequency>1000.0</SexFrequency>
+                </statOffsets>
+                <allowedMeditationFocusTypes>
+                    <li>Sex</li>
+                </allowedMeditationFocusTypes>
+            </li>
+        </degreeDatas>
+        <conflictingTraits>
+            <li>DislikesMen</li>
+            <li>DislikesWomen</li>
+        </conflictingTraits>
+        <requiredWorkTags>
+            <li>Social</li>
+        </requiredWorkTags>
+    </TraitDef>
+
+</Defs>

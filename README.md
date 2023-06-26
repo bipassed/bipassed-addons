@@ -43,3 +43,12 @@ Adds a bunch of little things that don't deserve an entire mod slot on their own
 
 ## [RimJobWorld](https://www.loverslab.com/files/file/7257-rimjobworld/)
 **Rapeshroom:** New drug made from 10 humpshroom and 1 neutroamine. Induces a near-constant random rape mental break for about a day. Why you would ever use this outside of religious or lore reasons is beyond me.
+
+**Hyposexual:** New trait. Reduces sex drive to 0%.
+
+**Ultrasexual:** New trait. Incrases sex drive to 1000%.
+
+**Instinct Breeder:** New trait. Increases sex drive to 100000%.
+
+## [Milking Machine](https://github.com/bipassed/rjw-milking-machine)
+**Galactorrhea Implant:** Induces a permanent lactation at a slight consciousness debuff.
