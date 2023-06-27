@@ -10,7 +10,7 @@
                 <label>hyposexual</label>
                 <description>[PAWN_nameDef] hates sex, and never wants to engage in it.</description>
                 <statOffsets>
-                    <SexFrequency>0</SexFrequency>
+                    <SexFrequency>-100.0</SexFrequency>
                 </statOffsets>
             </li>
         </degreeDatas>
@@ -44,7 +44,7 @@
 
     <TraitDef>
         <defName>InstinctBreeder</defName>
-        <commonality>0.0002</commonality>
+        <commonality>0.0004</commonality>
         <commonalityFemale>0.0002</commonalityFemale>
         <degreeDatas>
             <li>
