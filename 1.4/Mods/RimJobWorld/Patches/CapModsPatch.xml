@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <!-- Penises -->
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Large"]/capMods</xpath>
+        <value>
+            <capMods>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.01</offset>
+                </li>
+            </capMods>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Huge"]/capMods</xpath>
+        <value>
+            <capMods>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.025</offset>
+                </li>
+            </capMods>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Towering"]/capMods</xpath>
+        <value>
+            <capMods>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.05</offset>
+                </li>
+            </capMods>
+        </value>
+    </Operation>
+
+    <!-- Breasts -->
+    <Operation Class="PatchOperationRemove">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Average"]/capMods</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Large"]/capMods</xpath>
+        <value>
+            <capMods>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.005</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.005</offset>
+                </li>
+            </capMods>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Huge"]/capMods</xpath>
+        <value>
+            <capMods>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.025</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.01</offset>
+                </li>
+            </capMods>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Enormous"]/capMods</xpath>
+        <value>
+            <capMods>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.05</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.02</offset>
+                </li>
+            </capMods>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Massive"]/capMods</xpath>
+        <value>
+            <capMods>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.075</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.04</offset>
+                </li>
+            </capMods>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Gargantuan"]/capMods</xpath>
+        <value>
+            <capMods>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.125</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.06</offset>
+                </li>
+            </capMods>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Colossal"]/capMods</xpath>
+        <value>
+            <capMods>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.20</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.10</offset>
+                </li>
+            </capMods>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Titanic"]/capMods</xpath>
+        <value>
+            <capMods>
+                <li>
+                    <capacity>Moving</capacity>
+                    <offset>-0.325</offset>
+                </li>
+                <li>
+                    <capacity>Manipulation</capacity>
+                    <offset>-0.16</offset>
+                </li>
+            </capMods>
+        </value>
+    </Operation>
+
+</Patch>

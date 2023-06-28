@@ -8,12 +8,15 @@
     </supportedVersions>
     <description>Collection of things I wanted in my playthroughs. Has no hard requirements, so everything should just turn on if the proper mod is loaded.</description>
     <loadAfter>
+        <li>Ludeon.RimWorld</li>
+        <li>vanillaexpanded.vwenl</li>
+        <li>vanillaexpanded.vappe</li>
         <li>dineful.trahspanda.capacitydeprivationported</li>
+        <li>vanillaexpanded.vfecore</li>
         <li>cammy.identity.gender</li>
         <li>malistaticy.underwhere</li>
-        <li>rim.job.world</li>
-        <li>vanillaexpanded.vappe</li>
-        <li>vanillaexpanded.vwenl</li>
-        <li>vanillaexpanded.vfecore</li>
+        <li>vanillaexpanded.vfearchitect</li>
+        <li>bipassed.milkingmachine</li>
+        <li>seohyeon.optimizationmeats</li>
     </loadAfter>
 </ModMetaData>

@@ -22,7 +22,7 @@
                 <!-- BREAST AND PENIS FEM AND MASC STAT OFFSETS-->
                 <!-- PENISES -->
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/modExtensions</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or @ParentName="ArtificialPrivatePartPenisLotech" or @ParentName="ArtificialPrivatePartPenisHitech"]/modExtensions</xpath>
                     <value>
                         <li Class="Identity.genderedStuff">
                             <isMasculine>true</isMasculine>
@@ -30,7 +30,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Micro"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or @ParentName="ArtificialPrivatePartPenisLotech" or @ParentName="ArtificialPrivatePartPenisHitech"]/stages/li[label="Micro"]</xpath>
                     <value>
                         <statOffsets>
                             <MascStat>2</MascStat>
@@ -38,7 +38,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Small"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or @ParentName="ArtificialPrivatePartPenisLotech" or @ParentName="ArtificialPrivatePartPenisHitech"]/stages/li[label="Small"]</xpath>
                     <value>
                         <statOffsets>
                             <MascStat>4</MascStat>
@@ -46,7 +46,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Average"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or @ParentName="ArtificialPrivatePartPenisLotech" or @ParentName="ArtificialPrivatePartPenisHitech"]/stages/li[label="Average"]</xpath>
                     <value>
                         <statOffsets>
                             <MascStat>10</MascStat>
@@ -54,7 +54,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Large"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or @ParentName="ArtificialPrivatePartPenisLotech" or @ParentName="ArtificialPrivatePartPenisHitech"]/stages/li[label="Large"]</xpath>
                     <value>
                         <statOffsets>
                             <MascStat>15</MascStat>
@@ -62,7 +62,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Huge"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or @ParentName="ArtificialPrivatePartPenisLotech" or @ParentName="ArtificialPrivatePartPenisHitech"]/stages/li[label="Huge"]</xpath>
                     <value>
                         <statOffsets>
                             <MascStat>20</MascStat>
@@ -70,7 +70,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis"]/stages/li[label="Towering"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartPenis" or @ParentName="ArtificialPrivatePartPenisLotech" or @ParentName="ArtificialPrivatePartPenisHitech"]/stages/li[label="Towering"]</xpath>
                     <value>
                         <statOffsets>
                             <MascStat>30</MascStat>
@@ -79,7 +79,7 @@
                 </li>
                 <!-- BREASTS -->
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/modExtensions</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/modExtensions</xpath>
                     <value>
                         <li Class="Identity.genderedStuff">
                             <isFeminine>true</isFeminine>
@@ -87,7 +87,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Nipples"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Nipples"]</xpath>
                     <value>
                         <statOffsets>
                             <MascStat>5</MascStat>
@@ -95,7 +95,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Tiny"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Tiny"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>2</FemStat>
@@ -103,7 +103,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Small"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Small"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>4</FemStat>
@@ -111,7 +111,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Average"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Average"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>10</FemStat>
@@ -119,7 +119,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Large"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Large"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>15</FemStat>
@@ -127,7 +127,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Huge"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Huge"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>20</FemStat>
@@ -135,7 +135,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Enormous"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Enormous"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>30</FemStat>
@@ -143,7 +143,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Massive"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Massive"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>40</FemStat>
@@ -151,7 +151,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Gargantuan"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Gargantuan"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>60</FemStat>
@@ -159,7 +159,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Colossal"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Colossal"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>80</FemStat>
@@ -167,7 +167,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast"]/stages/li[label="Titanic"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartBreast" or @ParentName="ArtificialPrivatePartBreastLotech" or @ParentName="ArtificialPrivatePartBreastHitech"]/stages/li[label="Titanic"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>100</FemStat>
@@ -176,7 +176,7 @@
                 </li>
                 <!-- VAGINA -->
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina"]/modExtensions</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina" or @ParentName="ArtificialPrivatePartVaginaLotech" or @ParentName="ArtificialPrivatePartVaginaHitech"]/modExtensions</xpath>
                     <value>
                         <li Class="Identity.genderedStuff">
                             <isFeminine>true</isFeminine>
@@ -184,7 +184,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina"]/stages/li[label="Micro"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina" or @ParentName="ArtificialPrivatePartVaginaLotech" or @ParentName="ArtificialPrivatePartVaginaHitech"]/stages/li[label="Micro"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>15</FemStat>
@@ -192,7 +192,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina"]/stages/li[label="Tight"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina" or @ParentName="ArtificialPrivatePartVaginaLotech" or @ParentName="ArtificialPrivatePartVaginaHitech"]/stages/li[label="Tight"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>15</FemStat>
@@ -200,7 +200,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina"]/stages/li[label="Average"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina" or @ParentName="ArtificialPrivatePartVaginaLotech" or @ParentName="ArtificialPrivatePartVaginaHitech"]/stages/li[label="Average"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>15</FemStat>
@@ -208,7 +208,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina"]/stages/li[label="Accommodating"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina" or @ParentName="ArtificialPrivatePartVaginaLotech" or @ParentName="ArtificialPrivatePartVaginaHitech"]/stages/li[label="Accommodating"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>15</FemStat>
@@ -216,7 +216,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina"]/stages/li[label="Cavernous"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina" or @ParentName="ArtificialPrivatePartVaginaLotech" or @ParentName="ArtificialPrivatePartVaginaHitech"]/stages/li[label="Cavernous"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>15</FemStat>
@@ -224,7 +224,7 @@
                     </value>
                 </li>
                 <li Class="PatchOperationAdd">
-                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina"]/stages/li[label="Abyssal"]</xpath>
+                    <xpath>/Defs/rjw.HediffDef_PartBase[@Name="NaturalPrivatePartVagina" or @ParentName="ArtificialPrivatePartVaginaLotech" or @ParentName="ArtificialPrivatePartVaginaHitech"]/stages/li[label="Abyssal"]</xpath>
                     <value>
                         <statOffsets>
                             <FemStat>15</FemStat>

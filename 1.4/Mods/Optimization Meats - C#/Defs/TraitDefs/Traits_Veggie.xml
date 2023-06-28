@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <TraitDef>
+        <defName>Vegetarian</defName>
+        <commonality>0.7</commonality>
+        <degreeDatas>
+            <li>
+                <label>vegetarian</label>
+                <description>{PAWN_nameDef} hates eating meat, but is okay with animal products.</description>
+                <allowedMeditationFocusTypes>
+                    <li>Natural</li>
+                </allowedMeditationFocusTypes>
+                <extraThoughtsFromIngestion>
+                    <li>
+                        <thing>Meat_Cow</thing>
+                        <thoughtsDirect>
+                            <li>AteAnimalMeatDirect</li>
+                        </thoughtsDirect>
+                        <thoughtsAsIngredient>
+                            <li>AteAnimalMeatIngredient</li>
+                        </thoughtsAsIngredient>
+                    </li>
+                </extraThoughtsFromIngestion>
+            </li>
+        </degreeDatas>
+    </TraitDef>
+
+</Defs>

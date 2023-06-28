@@ -26,6 +26,9 @@ Adds a bunch of little things that don't deserve an entire mod slot on their own
 ## [Vanilla Furniture Expanded - Architect](https://steamcommunity.com/sharedfiles/filedetails/?id=2608762624)
 **Cheaper Bridges:** Reduces the price of all bridges from 12 to 6.
 
+## [Optimization: Meats - C# Edition](https://steamcommunity.com/sharedfiles/filedetails/?id=2542931556)
+**Vegetarian:** New trait. Gives pawns that eat raw animal meat a small mood debuff.
+
 ## [Capacity Deprivation and Prisoner Bindings Port](https://steamcommunity.com/sharedfiles/filedetails/?id=2884504605)
 **Slave Suppression Patch:** Adds a slave suppression offset to each of the bindings.
 

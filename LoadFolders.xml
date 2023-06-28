@@ -12,5 +12,6 @@
 		<li IfModActive="malistaticy.underwhere">1.4/Mods/UnderWhere</li>
 		<li IfModActive="vanillaexpanded.vfearchitect">1.4/Mods/Vanilla Furniture Expanded - Architect</li>
 		<li IfModActive="bipassed.milkingmachine">1.4/Mods/Milking Machine</li>
+		<li IfModActive="seohyeon.optimizationmeats">1.4/Mods/Optimization Meats - C#</li>
 	</v1.4>
 </loadFolders>
