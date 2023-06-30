@@ -36,7 +36,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelFemboyBase">
-		<defName>Footwear_LegStockings</defName>
+		<defName>BI_Footwear_LegStockings</defName>
 		<label>thigh highs</label>
 		<description>A simple pair stockings, for your legs.</description>
 		<graphicData>
@@ -64,7 +64,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="ApparelFemboyBase">
-		<defName>Armwear_ArmStockings</defName>
+		<defName>BI_Armwear_ArmStockings</defName>
 		<label>arm stockings</label>
 		<description>A simple pair stockings, for your arms.</description>
 		<graphicData>

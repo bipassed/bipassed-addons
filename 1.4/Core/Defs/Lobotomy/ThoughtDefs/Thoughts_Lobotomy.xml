@@ -2,7 +2,7 @@
 <Defs>
 
     <ThoughtDef>
-        <defName>LobotomyThought</defName>
+        <defName>BI_LobotomyThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
         <hediff>Lobotomy</hediff>
         <validWhileDespawned>true</validWhileDespawned>

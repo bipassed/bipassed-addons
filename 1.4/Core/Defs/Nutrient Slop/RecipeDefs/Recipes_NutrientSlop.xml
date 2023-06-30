@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <RecipeDef ParentName="CookMealBase">
-        <defName>CookMealNutrientSlop</defName>
+        <defName>BI_CookMealNutrientSlop</defName>
         <label>cook nutrient slop</label>
         <description>Cook a disgusting, rancid "meal" from one ingredient.</description>
         <workAmount>200</workAmount>
@@ -29,7 +29,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="CookMealBase">
-        <defName>CookMealNutrientSlopBulk</defName>
+        <defName>BI_CookMealNutrientSlopBulk</defName>
         <label>cook nutrient slop x4</label>
         <description>Cook 4 disgusting, rancid "meal" from one ingredient.</description>
         <workAmount>800</workAmount>

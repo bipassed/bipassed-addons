@@ -2,7 +2,7 @@
 <Defs>
 
     <WorkGiverDef>
-        <defName>DoBillsJoy_InudstrialComputer</defName>
+        <defName>BI_DoBillsJoy_InudstrialComputer</defName>
         <label>make things at old computer</label>
         <giverClass>WorkGiver_DoBill</giverClass>
         <workType>Research</workType>

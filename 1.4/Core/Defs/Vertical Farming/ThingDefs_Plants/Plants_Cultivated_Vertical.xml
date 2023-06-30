@@ -2,7 +2,7 @@
 <Defs>
 
     <ThingDef ParentName="PlantBase">
-        <defName>Plant_Rice_Vertical</defName>
+        <defName>BI_Plant_Rice_Vertical</defName>
         <label>rice plant</label>
         <description>A short, fast-growing crop that yields small edible grains. Its great nutritional output and ease of cultivation has made it the economic core of many great civilizations. While rice grows quickly, it is sensitive to soil fertility and will not fare well in poor soil.</description>
         <statBases>

@@ -2,7 +2,7 @@
 <Defs>
 
     <TraitDef>
-        <defName>Vegetarian</defName>
+        <defName>BI_Vegetarian</defName>
         <commonality>0.7</commonality>
         <degreeDatas>
             <li>
@@ -15,10 +15,10 @@
                     <li>
                         <thing>Meat_Cow</thing>
                         <thoughtsDirect>
-                            <li>AteAnimalMeatDirect</li>
+                            <li>BI_AteAnimalMeatDirect</li>
                         </thoughtsDirect>
                         <thoughtsAsIngredient>
-                            <li>AteAnimalMeatIngredient</li>
+                            <li>BI_AteAnimalMeatIngredient</li>
                         </thoughtsAsIngredient>
                     </li>
                 </extraThoughtsFromIngestion>

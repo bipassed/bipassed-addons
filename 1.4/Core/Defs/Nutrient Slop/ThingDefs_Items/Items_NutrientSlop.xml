@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Defs>
     <ThingDef ParentName="MealBase">
-        <defName>MealNutrientSlop</defName>
+        <defName>BI_MealNutrientSlop</defName>
         <label>nutrient slop</label>
         <description>Ever have nutrient paste? Yeah, this shit is worse. WAY worse.</description>
         <graphicData>

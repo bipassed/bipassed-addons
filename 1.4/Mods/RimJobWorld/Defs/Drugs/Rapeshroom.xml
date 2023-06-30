@@ -3,7 +3,7 @@
 <Defs>
 	<!--Consumable item-->
 	<ThingDef ParentName="DrugBase">
-		<defName>Rapeshroom</defName>
+		<defName>BI_Rapeshroom</defName>
 		<label>Rape shroom</label>
 		<description>A mushroom that is the result of intricately combining humpshroom and neutroamine. While priced highly, it's not worth selling due to the incredibly potent effects it has on someone.</description>
 		<tradeability>Sellable</tradeability>
@@ -40,7 +40,7 @@
 			<drugCategory>Social</drugCategory>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>RapeshroomHediff</hediffDef>
+					<hediffDef>BI_RapeshroomHediff</hediffDef>
 					<severity>1.0</severity>
 					<toleranceChemical>HumpShroom</toleranceChemical>
 				</li>

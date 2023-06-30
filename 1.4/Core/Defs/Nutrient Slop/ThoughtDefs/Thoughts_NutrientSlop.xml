@@ -2,7 +2,7 @@
 <Defs>
 
     <ThoughtDef>
-        <defName>AteNutrientSlop</defName>
+        <defName>BI_AteNutrientSlop</defName>
         <thoughtClass>Thought_FoodEaten</thoughtClass>
         <showBubble>true</showBubble>
         <icon>Things/Mote/ThoughtSymbol/Skull</icon>

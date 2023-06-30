@@ -2,7 +2,7 @@
 <Defs>
 
   <HediffDef>
-    <defName>Lobotomy</defName>
+    <defName>BI_Lobotomy</defName>
     <label>lobotomy</label>
     <description>The removal of the frontal lobe, preventing any sort of coherent thought.</description>
     <initialSeverity>1</initialSeverity>
@@ -29,7 +29,7 @@
   </HediffDef>
 
   <RecipeDef ParentName="SurgeryInstallImplantBase">
-    <defName>Lobotomize</defName>
+    <defName>BI_Lobotomize</defName>
     <label>lobotomize</label>
     <description>Lobotomize a patient.</description>
     <jobString>Removing frontal lobe.</jobString>

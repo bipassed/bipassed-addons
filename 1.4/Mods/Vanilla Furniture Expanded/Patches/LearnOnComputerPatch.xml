@@ -3,7 +3,7 @@
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]/statBases</xpath>
         <value>
-            <WorkTableWorkSpeedFactor>0.5</WorkTableWorkSpeedFactor>
+            <WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
@@ -22,18 +22,18 @@
         <xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]</xpath>
         <value>
             <recipes>
-                <li>PlayShootingGames</li>
-                <li>PlayFightingGames</li>
-                <li>WatchConstructionVideos</li>
-                <li>PlayMiningGames</li>
-                <li>WatchCookingVideos</li>
-                <li>WatchPlantVideos</li>
-                <li>WatchAnimalVideos</li>
-                <li>WatchCraftingVideos</li>
-                <li>PracticeArt</li>
-                <li>WatchMedicalVideos</li>
-                <li>WatchSocialVideos</li>
-                <li>WatchIntellectualVideos</li>
+                <li>BI_PlayShootingGames</li>
+                <li>BI_PlayFightingGames</li>
+                <li>BI_WatchConstructionVideos</li>
+                <li>BI_PlayMiningGames</li>
+                <li>BI_WatchCookingVideos</li>
+                <li>BI_WatchPlantVideos</li>
+                <li>BI_WatchAnimalVideos</li>
+                <li>BI_WatchCraftingVideos</li>
+                <li>BI_PracticeArt</li>
+                <li>BI_WatchMedicalVideos</li>
+                <li>BI_WatchSocialVideos</li>
+                <li>BI_WatchIntellectualVideos</li>
             </recipes>
             <inspectorTabs>
                 <li>ITab_Bills</li>
@@ -46,18 +46,18 @@
         <xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]</xpath>
         <value>
             <recipes>
-                <li>PlayShootingGames</li>
-                <li>PlayFightingGames</li>
-                <li>WatchConstructionVideos</li>
-                <li>PlayMiningGames</li>
-                <li>WatchCookingVideos</li>
-                <li>WatchPlantVideos</li>
-                <li>WatchAnimalVideos</li>
-                <li>WatchCraftingVideos</li>
-                <li>PracticeArt</li>
-                <li>WatchMedicalVideos</li>
-                <li>WatchSocialVideos</li>
-                <li>WatchIntellectualVideos</li>
+                <li>BI_PlayShootingGames</li>
+                <li>BI_PlayFightingGames</li>
+                <li>BI_WatchConstructionVideos</li>
+                <li>BI_PlayMiningGames</li>
+                <li>BI_WatchCookingVideos</li>
+                <li>BI_WatchPlantVideos</li>
+                <li>BI_WatchAnimalVideos</li>
+                <li>BI_WatchCraftingVideos</li>
+                <li>BI_PracticeArt</li>
+                <li>BI_WatchMedicalVideos</li>
+                <li>BI_WatchSocialVideos</li>
+                <li>BI_WatchIntellectualVideos</li>
             </recipes>
             <inspectorTabs>
                 <li>ITab_Bills</li>

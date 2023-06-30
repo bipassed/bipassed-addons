@@ -2,7 +2,7 @@
 <Defs>
 
     <ThoughtDef>
-        <defName>AteAnimalMeatDirect</defName>
+        <defName>BI_AteAnimalMeatDirect</defName>
         <showBubble>true</showBubble>
         <icon>Things/Mote/ThoughtSymbol/Food</icon>
         <durationDays>1</durationDays>
@@ -16,7 +16,7 @@
     </ThoughtDef>
 
     <ThoughtDef>
-        <defName>AteAnimalMeatIngredient</defName>
+        <defName>BI_AteAnimalMeatIngredient</defName>
         <showBubble>true</showBubble>
         <icon>Things/Mote/ThoughtSymbol/Food</icon>
         <durationDays>1</durationDays>

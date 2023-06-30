@@ -10,7 +10,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>PlayShootingGames</defName>
+        <defName>BI_PlayShootingGames</defName>
         <label>play shooting games</label>
         <description>Grand Theft Auto? Left 4 Dead? Tarkov? Whatever it may be, it is violent, bloody, and fun.</description>
         <jobString>Playing shooting games.</jobString>
@@ -18,7 +18,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>PlayFightingGames</defName>
+        <defName>BI_PlayFightingGames</defName>
         <label>play fighting games</label>
         <description>Beat the living heck out of some baddies in whatever fighting game you want.</description>
         <jobString>Playing fighting games.</jobString>
@@ -26,7 +26,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>WatchConstructionVideos</defName>
+        <defName>BI_WatchConstructionVideos</defName>
         <label>watch construction videos</label>
         <description>Hey, don't judge. They're satisfying sometimes.</description>
         <jobString>Watching construction videos.</jobString>
@@ -34,7 +34,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>PlayMiningGames</defName>
+        <defName>BI_PlayMiningGames</defName>
         <label>play mining games</label>
         <description>Minecraft! Or if you're broke, BuildCraft!</description>
         <jobString>Playing mining games.</jobString>
@@ -42,7 +42,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>WatchCookingVideos</defName>
+        <defName>BI_WatchCookingVideos</defName>
         <label>watch cooking videos</label>
         <description>Watch someone make a knife out of jello, or perhaps a scottish girl bake a cake.</description>
         <jobString>Watching cooking videos.</jobString>
@@ -50,7 +50,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>WatchPlantVideos</defName>
+        <defName>BI_WatchPlantVideos</defName>
         <label>watch plant videos</label>
         <description>Watch some plants grow, or someone garden. Those pumpkins get big, eh?</description>
         <jobString>Watching plant videos.</jobString>
@@ -58,7 +58,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>WatchAnimalVideos</defName>
+        <defName>BI_WatchAnimalVideos</defName>
         <label>watch animal videos</label>
         <description>Watch a certified groomer groom dogs, cats, pigs... Why a pig? Don't watch that video.</description>
         <jobString>Watching animal videos.</jobString>
@@ -66,7 +66,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>WatchCraftingVideos</defName>
+        <defName>BI_WatchCraftingVideos</defName>
         <label>watch crafting videos</label>
         <description>Watch people create things out of materials in their own home, or watch someone play Minecraft because you can't afford it.</description>
         <jobString>Watching crafting videos.</jobString>
@@ -74,7 +74,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>PracticeArt</defName>
+        <defName>BI_PracticeArt</defName>
         <label>Practice art</label>
         <description>Draw something, doesn't matter what.</description>
         <jobString>Practicing art.</jobString>
@@ -82,7 +82,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>WatchMedicalVideos</defName>
+        <defName>BI_WatchMedicalVideos</defName>
         <label>watch medical videos</label>
         <description>Watch... Medical videos? Like, ChubbyEmu I guess.</description>
         <jobString>Watching medical videos.</jobString>
@@ -90,7 +90,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>WatchSocialVideos</defName>
+        <defName>BI_WatchSocialVideos</defName>
         <label>watch social videos</label>
         <description>Watch some online pranksters get shot in the chest.</description>
         <jobString>Watching social videos.</jobString>
@@ -98,7 +98,7 @@
     </RecipeDef>
 
     <RecipeDef ParentName="ComputerLearning">
-        <defName>WatchIntellectualVideos</defName>
+        <defName>BI_WatchIntellectualVideos</defName>
         <label>watch a documentary</label>
         <description>Watch a documentary about innane boring stuff, because you're smart and must absorb knowledge.</description>
         <jobString>Watching a documentary.</jobString>

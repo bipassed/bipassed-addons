@@ -2,27 +2,27 @@
 <Defs>
 
     <HediffDef ParentName="ImplantHediffBase">
-        <defName>HediffGalactorrheaImplant</defName>
+        <defName>BI_HediffGalactorrheaImplant</defName>
         <label>galactorrhea implant</label>
         <labelNoun>a galactorrhea implant</labelNoun>
         <description>An installed galactorrhea implant.</description>
         <descriptionHyperlinks>
-            <ThingDef>GalactorrheaImplant</ThingDef>
+            <ThingDef>BI_GalactorrheaImplant</ThingDef>
         </descriptionHyperlinks>
         <stages>
             <li>
                 <partEfficiencyOffset>-0.1</partEfficiencyOffset>
             </li>
         </stages>
-        <spawnThingOnRemoved>GalactorrheaImplant</spawnThingOnRemoved>
+        <spawnThingOnRemoved>BI_GalactorrheaImplant</spawnThingOnRemoved>
     </HediffDef>
 
     <ThingDef ParentName="BodyPartProstheticBase">
-        <defName>GalactorrheaImplant</defName>
+        <defName>BI_GalactorrheaImplant</defName>
         <label>galactorrhea implant</label>
         <description>An invasive surgical implant on the brain that induces constant lactation, reduces brain capacity as the implant uses parts of the brain to redirect unused resources towards lactation.</description>
         <descriptionHyperlinks>
-            <RecipeDef>InstallGalactorrheaImplant</RecipeDef>
+            <RecipeDef>BI_InstallGalactorrheaImplant</RecipeDef>
         </descriptionHyperlinks>
         <thingSetMakerTags>
             <li>RewardStandardLowFreq</li>
@@ -37,19 +37,19 @@
     </ThingDef>
 
     <RecipeDef ParentName="SurgeryInstallImplantBase">
-        <defName>InstallGalactorrheaImplant</defName>
+        <defName>BI_InstallGalactorrheaImplant</defName>
         <label>install galactorrhea implant</label>
         <description>Install a galactorrhea implant.</description>
         <descriptionHyperlinks>
-            <ThingDef>GalactorrheaImplant</ThingDef>
-            <HediffDef>HediffGalactorrheaImplant</HediffDef>
+            <ThingDef>BI_GalactorrheaImplant</ThingDef>
+            <HediffDef>BI_HediffGalactorrheaImplant</HediffDef>
         </descriptionHyperlinks>
         <jobString>Installing galactorrhea implant.</jobString>
         <ingredients>
             <li>
                 <filter>
                     <thingDefs>
-                        <li>GalactorrheaImplant</li>
+                        <li>BI_GalactorrheaImplant</li>
                     </thingDefs>
                 </filter>
                 <count>1</count>
@@ -57,13 +57,13 @@
         </ingredients>
         <fixedIngredientFilter>
             <thingDefs>
-                <li>GalactorrheaImplant</li>
+                <li>BI_GalactorrheaImplant</li>
             </thingDefs>
         </fixedIngredientFilter>
         <appliedOnFixedBodyParts>
             <li>Brain</li>
         </appliedOnFixedBodyParts>
-        <addsHediff>HediffGalactorrheaImplant</addsHediff>
+        <addsHediff>BI_HediffGalactorrheaImplant</addsHediff>
     </RecipeDef>
 
 </Defs>

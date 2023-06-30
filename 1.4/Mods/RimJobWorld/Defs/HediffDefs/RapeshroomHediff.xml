@@ -2,7 +2,7 @@
 <Defs>
 
 	<HediffDef>
-		<defName>RapeshroomHediff</defName>
+		<defName>BI_RapeshroomHediff</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>forced libido</label>
 		<description>Highly increased libido, the genitals will think louder than the mind.</description>

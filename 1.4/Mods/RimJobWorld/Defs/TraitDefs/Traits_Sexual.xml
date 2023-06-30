@@ -2,7 +2,7 @@
 <Defs>
 
     <TraitDef>
-        <defName>Hyposexual</defName>
+        <defName>BI_Hyposexual</defName>
         <commonality>0.1</commonality>
         <commonalityFemale>0.08</commonalityFemale>
         <degreeDatas>
@@ -17,7 +17,7 @@
     </TraitDef>
 
     <TraitDef>
-        <defName>Ultrasexual</defName>
+        <defName>BI_Ultrasexual</defName>
         <commonality>0.02</commonality>
         <commonalityFemale>0.02</commonalityFemale>
         <degreeDatas>
@@ -43,7 +43,7 @@
     </TraitDef>
 
     <TraitDef>
-        <defName>InstinctBreeder</defName>
+        <defName>BI_InstinctBreeder</defName>
         <commonality>0.0004</commonality>
         <commonalityFemale>0.0002</commonalityFemale>
         <degreeDatas>
