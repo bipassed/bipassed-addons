@@ -1,7 +1,6 @@
 GAMEPLAY
 Adult Breast Feeding - Let adults breastfeed (RimJobWorld)
 Leash Pawns - Have a slave walk around with their owner (RimJobWorld)
-Cyberspace - Furniture + Headgear that puts a pawn into an eternal sandbox, sacrificing labor in the colony for silver output (Core)
 
 APPAREL
 Fox ear headband (Core)
@@ -17,5 +16,7 @@ Tranquilizer Turret - Similar to the non-lethal turret, but uses dart gun projec
 Furrifier - Forces a pawn to transform into a random xenotype from Anthrosonae (Anthrosonae)
 
 MISC
-Cum tiles - If enough cum is on a specific cell, turn it into cum water (RJW)
-Soul stealer psycast - Steal the essence of a living being to increase the power of the caster slightly.
+Cum tiles - If enough cum is on a specific cell, turn it into cum water (RimJobWorld)
+Lewd biome - New biome infested with lewdity. Animals that look like genitals, plants that look like genitals, etc (RimJobWorld)
+
+Soul stealer psycast - Steal the essence of a living being to increase the power of the caster slightly. (Core)

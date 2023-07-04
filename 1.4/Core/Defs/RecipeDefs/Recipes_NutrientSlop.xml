@@ -23,7 +23,7 @@
             </li>
         </ingredients>
         <products>
-            <MealNutrientSlop>1</MealNutrientSlop>
+            <BI_MealNutrientSlop>1</BI_MealNutrientSlop>
         </products>
         <workSkill>Cooking</workSkill>
     </RecipeDef>
@@ -51,7 +51,7 @@
             </li>
         </ingredients>
         <products>
-            <MealNutrientSlop>4</MealNutrientSlop>
+            <BI_MealNutrientSlop>4</BI_MealNutrientSlop>
         </products>
         <workSkill>Cooking</workSkill>
     </RecipeDef>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Main -->
+    <HediffDef>
+        <defName>BI_InVirtualReality</defName>
+        <label>in virtual reality</label>
+        <description>In a virtual reality, unaware to the outside world.</description>
+        <initialSeverity>1</initialSeverity>
+        <hediffClass>BipassedAddons.HediffComp_VirtualReality</hediffClass>
+        <stages>
+            <li>
+                <hungerRateFactorOffset>0.5</hungerRateFactorOffset>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <setMax>0</setMax>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef MayRequire="rim.job.world">
+        <defName>BI_InVirtualRealityLewd</defName>
+        <label>in virtual reality (lewd)</label>
+        <description>In a virtual reality, unaware to the outside world.</description>
+        <initialSeverity>1</initialSeverity>
+        <hediffClass>BipassedAddons.HediffComp_VirtualRealityLewd</hediffClass>
+        <stages>
+            <li>
+                <hungerRateFactorOffset>0.6</hungerRateFactorOffset>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <setMax>0</setMax>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- Temporary hediff gains -->
+    <HediffDef>
+        <defName>BI_VirtualRealityTemporaryBoost_Talking</defName>
+        <label>VR boost</label>
+        <description>Prolonged exposure to a virtual reality headset has increased the speech of the wearer.</description>
+        <initialSeverity>1</initialSeverity>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.2</severityPerDay>
+                <showHoursToRecover>true</showHoursToRecover>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>talking</label>
+                <socialFightChanceFactor>0</socialFightChanceFactor>
+                <capMods>
+                    <li>
+                        <capacity>Talking</capacity>
+                        <offset>1</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>BI_VirtualRealityTemporaryBoost_Manipulation</defName>
+        <label>VR boost</label>
+        <description>Prolonged exposure to a virtual reality headset has increased the manipulation of the wearer.</description>
+        <initialSeverity>1</initialSeverity>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.2</severityPerDay>
+                <showHoursToRecover>true</showHoursToRecover>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>manipulation</label>
+                <capMods>
+                    <li>
+                        <capacity>Manipulation</capacity>
+                        <offset>1</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <HediffDef>
+        <defName>BI_VirtualRealityTemporaryBoost_Moving</defName>
+        <label>VR boost</label>
+        <description>Prolonged exposure to a virtual reality headset has increased the movement of the wearer.</description>
+        <initialSeverity>1</initialSeverity>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.2</severityPerDay>
+                <showHoursToRecover>true</showHoursToRecover>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <label>moving</label>
+                <capMods>
+                    <li>
+                        <capacity>Moving</capacity>
+                        <offset>1</offset>
+                    </li>
+                </capMods>
+            </li>
+        </stages>
+    </HediffDef>
+
+    <!-- 30 day mood boost -->
+    <HediffDef>
+        <defName>BI_VirtualRealityTemporaryBoost_Mood</defName>
+        <label>VR boost</label>
+        <description>Prolonged exposure to a virtual reality headset has increased the mood of the wearer.</description>
+        <initialSeverity>1</initialSeverity>
+        <hediffClass>HediffWithComps</hediffClass>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-0.033</severityPerDay>
+                <showHoursToRecover>true</showHoursToRecover>
+            </li>
+        </comps>
+        <stages>
+            <li>
+                <becomeVisible>false</becomeVisible>
+            </li>
+        </stages>
+    </HediffDef>
+
+</Defs>

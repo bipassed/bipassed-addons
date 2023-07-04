@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <!-- Two apparels. One for RJW (make it a patch) and then the main SFW recreational one -->
+    <ThingDef ParentName="HatMakeableBase">
+        <defName>BI_Apparel_VirtualRealityHeadset</defName>
+        <label>VR headset</label>
+        <description>A VR headset is a wearable device that immerses users in a simulated three-dimensional environment, providing an interactive and immersive virtual reality experience.</description>
+        <possessionCount>1</possessionCount>
+        <recipeMaker>
+            <researchPrerequisite>Fabrication</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Headset/Headset</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <costList>
+            <ComponentIndustrial>4</ComponentIndustrial>
+            <ComponentSpacer>4</ComponentSpacer>
+            <Plasteel>60</Plasteel>
+            <Gold>1</Gold>
+        </costList>
+        <statBases>
+            <MaxHitPoints>450</MaxHitPoints>
+            <WorkToMake>10000</WorkToMake>
+            <Mass>1</Mass>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <apparel>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headset/Headset</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+        <tickerType>Normal</tickerType>
+        <comps>
+            <li Class="VFECore.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>BI_InVirtualReality</li>
+                </hediffDefnames>
+            </li>
+        </comps>
+    </ThingDef>
+
+    <ThingDef ParentName="HatMakeableBase" MayRequire="rim.job.world">
+        <defName>BI_Apparel_VirtualRealityHeadsetLewd</defName>
+        <label>VR headset (lewd)</label>
+        <description>A VR headset is a wearable device that immerses users in a simulated three-dimensional environment, providing an interactive and immersive virtual reality experience. This version isn't suitable for children, as it's filled with the most realistic sexual simulations that fulfill any fantasy.</description>
+        <possessionCount>1</possessionCount>
+        <recipeMaker>
+            <researchPrerequisite>Fabrication</researchPrerequisite>
+        </recipeMaker>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Headset/Headset</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+            <drawSize>(1.5, 1.5)</drawSize>
+        </graphicData>
+        <costList>
+            <ComponentIndustrial>4</ComponentIndustrial>
+            <ComponentSpacer>4</ComponentSpacer>
+            <Plasteel>60</Plasteel>
+            <Gold>10</Gold>
+        </costList>
+        <statBases>
+            <MaxHitPoints>450</MaxHitPoints>
+            <WorkToMake>10000</WorkToMake>
+            <Mass>1</Mass>
+            <EquipDelay>1.2</EquipDelay>
+        </statBases>
+        <apparel>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+            <bodyPartGroups>
+                <li>UpperHead</li>
+            </bodyPartGroups>
+            <wornGraphicPath>Things/Pawn/Humanlike/Apparel/Headset/Headset</wornGraphicPath>
+            <layers>
+                <li>Overhead</li>
+            </layers>
+        </apparel>
+        <tickerType>Normal</tickerType>
+        <comps>
+            <li Class="VFECore.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>BI_InVirtualReality</li>
+                </hediffDefnames>
+            </li>
+        </comps>
+    </ThingDef>
+
+</Defs>

@@ -32,7 +32,7 @@
         </costList>
         <fertility>2.8</fertility>
         <building>
-            <defaultPlantToGrow>Plant_Rice_Vertical</defaultPlantToGrow>
+            <defaultPlantToGrow>BI_Plant_Rice_Vertical</defaultPlantToGrow>
             <sowTag>VerticalHydroponic</sowTag>
             <buildingTags>
                 <li>Production</li>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LanguageData>
+
+    <BI_TraitAdded>Trait gained: {0}</BI_TraitAdded>
+    <BI_TraitAddedMessage>{0} has gained the {1} trait.</BI_TraitAddedMessage>
+
+    <BI_TraitLost>Trait lost: {0}</BI_TraitLost>
+    <BI_TraitLostMessage>{0} has lost the {1} trait.</BI_TraitLostMessage>
+
+    <BI_HeartAttack>Heart attack!</BI_HeartAttack>
+    <BI_HeartAttackMessage>{0} is suffering from a heart attack due to prolonged virtual reality exposure.</BI_HeartAttackMessage>
+
+    <BI_SkillGain>Skill increase!</BI_SkillGain>
+    <BI_SkillGainMessage>{0} has gained {1}xp in {2}!</BI_SkillGainMessage>
+
+    <BI_VRBoost>VR Boost!</BI_VRBoost>
+    <BI_VRBoostMessage>{0} has gained a VR boost! Check their health tab to see which it is!</BI_VRBoostMessage>
+    <BI_VRBoostMessageMood>{0} experienced something so overwhelmingly positive in virtual reality they've received a large 30 day mood bonus!</BI_VRBoostMessageMood>
+
+</LanguageData>

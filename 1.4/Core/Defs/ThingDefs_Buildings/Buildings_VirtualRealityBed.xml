@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="BasicBedBase">
+        <defName>BI_VirtualRealityBed</defName>
+        <label>virtual reality bed</label>
+        <description>A cozy mattress and sheets on a frame for resting. Requires high amounts of power and as such provides the sleeper with many nice benefits. Meant for long-term use.</description>
+        <thingClass>BipassedAddons.Building_VirtualRealityBed</thingClass>
+        <graphicData>
+            <texPath>Things/Building/Furniture/VirtualRealityBed/VirtualRealityBed</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <shaderType>CutoutComplex</shaderType>
+            <drawSize>(2,2)</drawSize>
+        </graphicData>
+        <statBases>
+            <MaxHitPoints>300</MaxHitPoints>
+            <Beauty>1</Beauty>
+            <WorkToBuild>1800</WorkToBuild>
+            <Mass>30</Mass>
+            <BedRestEffectiveness>1.25</BedRestEffectiveness>
+        </statBases>
+        <size>(1,2)</size>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <ComponentSpacer>2</ComponentSpacer>
+            <Plasteel>20</Plasteel>
+            <Gold>10</Gold>
+        </costList>
+        <costStuffCount>20</costStuffCount>
+        <building>
+            <paintable>true</paintable>
+        </building>
+        <tickerType>Normal</tickerType>
+        <comps>
+            <li Class="CompProperties_Power">
+                <compClass>CompPowerTrader</compClass>
+                <shortCircuitInRain>true</shortCircuitInRain>
+                <basePowerConsumption>640</basePowerConsumption>
+            </li>
+            <li Class="CompProperties_Flickable"/>
+            <li Class="CompProperties_Breakdownable"/>
+        </comps>
+    </ThingDef>
+
+</Defs>

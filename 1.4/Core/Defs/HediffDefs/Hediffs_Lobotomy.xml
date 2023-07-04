@@ -39,7 +39,7 @@
     <appliedOnFixedBodyParts>
       <li>Brain</li>
     </appliedOnFixedBodyParts>
-    <addsHediff>Lobotomy</addsHediff>
+    <addsHediff>BI_Lobotomy</addsHediff>
   </RecipeDef>
 
 </Defs>

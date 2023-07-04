@@ -19,4 +19,11 @@
         <li>bipassed.milkingmachine</li>
         <li>seohyeon.optimizationmeats</li>
     </loadAfter>
+    <modDependencies>
+        <li>
+            <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>
+            <displayName>Vanilla Expanded Framework</displayName>
+            <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
+        </li>
+    </modDependencies>
 </ModMetaData>

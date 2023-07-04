@@ -4,7 +4,7 @@
     <ThoughtDef>
         <defName>BI_LobotomyThought</defName>
         <workerClass>ThoughtWorker_Hediff</workerClass>
-        <hediff>Lobotomy</hediff>
+        <hediff>BI_Lobotomy</hediff>
         <validWhileDespawned>true</validWhileDespawned>
         <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
         <stages>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>BI_VirtualRealityThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>BI_InVirtualReality</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>in virtual reality</label>
+                <description>This new feeling, this new world... It's unreal, unlike anything I've seen before. Truly a glorious testament to the ingenuity of humanity.</description>
+                <baseMoodEffect>1000</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+    <ThoughtDef>
+        <defName>BI_VirtualRealityTemporaryBoost_MovingThought</defName>
+        <workerClass>ThoughtWorker_Hediff</workerClass>
+        <hediff>BI_VirtualRealityTemporaryBoost_Moving</hediff>
+        <validWhileDespawned>true</validWhileDespawned>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>virtual reality mood bonus</label>
+                <description>Wow... That was something else, I'll remember that for a long time.</description>
+                <baseMoodEffect>30</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

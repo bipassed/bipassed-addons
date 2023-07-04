@@ -14,7 +14,7 @@
         </statBases>
         <ingestible>
             <preferability>MealAwful</preferability>
-            <tasteThought>AteNutrientSlop</tasteThought>
+            <tasteThought>BI_AteNutrientSlop</tasteThought>
             <ingestEffect>EatVegetarian</ingestEffect>
             <ingestSound>Meal_Eat</ingestSound>
         </ingestible>

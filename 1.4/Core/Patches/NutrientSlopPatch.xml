@@ -3,8 +3,8 @@
     <Operation Class="PatchOperationAdd">
         <xpath>/Defs/ThingDef[defName="ElectricStove" or defName="FueledStove"]/recipes</xpath>
         <value>
-            <li>CookMealNutrientSlop</li>
-            <li>CookMealNutrientSlopBulk</li>
+            <li>BI_CookMealNutrientSlop</li>
+            <li>BI_CookMealNutrientSlopBulk</li>
         </value>
     </Operation>
 </Patch>

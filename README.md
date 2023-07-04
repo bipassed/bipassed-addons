@@ -1,6 +1,8 @@
 # bipassed addons
 
 Adds a bunch of little things that don't deserve an entire mod slot on their own.
+## REQUIRES [VANILLA EXPANDED FRAMEWORK](https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105)
+
 ## [Core](https://store.steampowered.com/app/294100/RimWorld/)
 **Lobotomy:** Simple and fairly inexpensive way to stop a colonist or prisoner from complaining so much. Lowers consciousness by 30%, chance of death on failure is 100%. Causes chance of berserk, psychotic wander and sad wander every 120 days or so if successful. **NOTE:** This gives a config error, it can be safely ignored.
 
