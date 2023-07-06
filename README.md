@@ -14,6 +14,23 @@ Adds a bunch of little things that don't deserve an entire mod slot on their own
 
 **Cheaper Bridges:** Reduces the price of all bridges from 12 to 6.
 
+**Virtual Reality:** Adds in a recreational virtual reality headset made at a tailoring bench. Every 24 hours, the headset will drop 7% of the wearer's market value (as payment for hooking up to the intergalactic cyberspace), and completely fill the recreation gain. Wearing the headset provides random chance bonuses as well. These include:
+- 1 in 60 to gain a small amount of experience in any given skill.
+- 1 in 100 to temporarily boost moving, manipulation, or speech.
+- 1 in 100 to be given a trait, with a following 80% for positive and 20% for negative.
+- 1 in 100 to have a trait completely removed from the wearer.
+- 1 in 100 to gain a 30-day +30 mood bonus.
+- 1 in 500 to suffer a heart attack.
+
+If **RimJobWorld** is active, an additional lewd headset is added which drops 14% of the wearer's market value, increases vulnerability, and fills the recreation bar, as well as the chance to provide the following effects per day:
+- If **Sexperience** is active, 50/50 chance to gain experience in the sex skill.
+- 1 in 100 to gain a 30-day +30 mood bonus.
+- 1 in 200 to gain a random RimJobWorld trait.
+- 1 in 400 to suffer a heart attack.
+More to come when I add Milking Machine compatability.
+
+Also adds a bed that refills the hunger need at the cost of 640w of electricity, made specifically for long-term use.
+
 ## [Vanilla Weapons Expanded - Non-Lethal](https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354)
 **Non-Lethal Turrets:** Adds a single turret building that fires slightly faster and one extra bullet per burst at the cost of the bullets themselves being the same as the non-lethal pistol.
 
