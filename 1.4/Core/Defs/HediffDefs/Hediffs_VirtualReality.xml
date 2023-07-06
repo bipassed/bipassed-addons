@@ -36,6 +36,9 @@
                         <setMax>0</setMax>
                     </li>
                 </capMods>
+                <statOffsets>
+                    <Vulnerability>100</Vulnerability>
+                </statOffsets>
             </li>
         </stages>
     </HediffDef>

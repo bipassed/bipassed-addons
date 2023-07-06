@@ -64,7 +64,7 @@
             <ComponentIndustrial>4</ComponentIndustrial>
             <ComponentSpacer>4</ComponentSpacer>
             <Plasteel>60</Plasteel>
-            <Gold>10</Gold>
+            <Gold>1</Gold>
         </costList>
         <statBases>
             <MaxHitPoints>450</MaxHitPoints>
