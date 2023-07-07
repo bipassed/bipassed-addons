@@ -31,6 +31,8 @@ More to come when I add Milking Machine compatability.
 
 Also adds a bed that refills the hunger need at the cost of 640w of electricity, made specifically for long-term use.
 
+**One million Silver Endgame:** If you save up one million silver, you can build the silver stash in the Ship architect menu. This is an immediate end-game winning scenario.
+
 ## [Vanilla Weapons Expanded - Non-Lethal](https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354)
 **Non-Lethal Turrets:** Adds a single turret building that fires slightly faster and one extra bullet per burst at the cost of the bullets themselves being the same as the non-lethal pistol.
 
