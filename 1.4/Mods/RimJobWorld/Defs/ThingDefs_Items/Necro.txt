@@ -1,0 +1,128 @@
+
+    <!-- Necro porn -->
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroPornAwful</defName>
+        <label>necro porn (awful)</label>
+        <description>Necro porn.</description>
+        <statBases>
+            <MarketValue>37</MarketValue>            <!-- 0.25 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroPornPoor</defName>
+        <label>necro porn (poor)</label>
+        <description>Necro porn.</description>
+        <statBases>
+            <MarketValue>75</MarketValue>            <!-- 0.50 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroPornNormal</defName>
+        <label>necro porn (normal)</label>
+        <description>Necro porn.</description>
+        <statBases>
+            <MarketValue>150</MarketValue>            <!-- 1.0 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroPornGood</defName>
+        <label>necro porn (good)</label>
+        <description>Necro porn.</description>
+        <statBases>
+            <MarketValue>187</MarketValue>            <!-- 1.25 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroPornExcellent</defName>
+        <label>necro porn (excellent)</label>
+        <description>Necro porn.</description>
+        <statBases>
+            <MarketValue>225</MarketValue>            <!-- 1.5 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroPornMasterwork</defName>
+        <label>necro porn (masterwork)</label>
+        <description>Necro porn.</description>
+        <statBases>
+            <MarketValue>375</MarketValue>            <!-- 2.5 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroPornLegendary</defName>
+        <label>necro porn (legendary)</label>
+        <description>Necro porn.</description>
+        <statBases>
+            <MarketValue>750</MarketValue>            <!-- 5 -->
+        </statBases>
+    </ThingDef>
+
+    <!-- Necro bestiality porn -->
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroBestialityPornAwful</defName>
+        <label>necro bestiality porn (awful)</label>
+        <description>Necro bestiality porn.</description>
+        <statBases>
+            <MarketValue>75</MarketValue>            <!-- 0.25 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroBestialityPornPoor</defName>
+        <label>necro bestiality porn (poor)</label>
+        <description>Necro bestiality porn.</description>
+        <statBases>
+            <MarketValue>150</MarketValue>            <!-- 0.50 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroBestialityPornNormal</defName>
+        <label>necro bestiality porn (normal)</label>
+        <description>Necro bestiality porn.</description>
+        <statBases>
+            <MarketValue>300</MarketValue>            <!-- 1.0 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroBestialityPornGood</defName>
+        <label>necro bestiality porn (good)</label>
+        <description>Necro bestiality porn.</description>
+        <statBases>
+            <MarketValue>375</MarketValue>            <!-- 1.25 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroBestialityPornExcellent</defName>
+        <label>necro bestiality porn (excellent)</label>
+        <description>Necro bestiality porn.</description>
+        <statBases>
+            <MarketValue>450</MarketValue>            <!-- 1.5 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroBestialityPornMasterwork</defName>
+        <label>necro bestiality porn (masterwork)</label>
+        <description>Necro bestiality porn.</description>
+        <statBases>
+            <MarketValue>750</MarketValue>            <!-- 2.5 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NecroBestialityPornLegendary</defName>
+        <label>necro bestiality porn (legendary)</label>
+        <description>Necro bestiality porn.</description>
+        <statBases>
+            <MarketValue>1500</MarketValue>            <!-- 5 -->
+        </statBases>
+    </ThingDef>

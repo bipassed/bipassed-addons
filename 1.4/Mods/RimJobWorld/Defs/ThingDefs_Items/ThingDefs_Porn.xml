@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef Name="BI_PornBase" ParentName="ResourceBase" Abstract="True">
+        <graphicData>
+            <texPath>Things/Item/Resource/PornUSB</texPath>
+            <graphicClass>Graphic_StackCount</graphicClass>
+            <drawSize>1.00</drawSize>
+        </graphicData>
+        <stackLimit>50</stackLimit>
+        <healthAffectsPrice>true</healthAffectsPrice>
+        <statBases>
+            <MaxHitPoints>50</MaxHitPoints>
+            <Mass>0.002</Mass>
+            <Flammability>0.0</Flammability>
+            <DeteriorationRate>2.0</DeteriorationRate>
+        </statBases>
+        <thingCategories>
+            <li>Manufactured</li>
+        </thingCategories>
+    </ThingDef>
+
+    <!-- Normal porn -->
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NormalPornAwful</defName>
+        <label>normal porn (awful)</label>
+        <description>Completely normal porn.</description>
+        <statBases>
+            <MarketValue>10</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NormalPornPoor</defName>
+        <label>normal porn (poor)</label>
+        <description>Completely normal porn.</description>
+        <statBases>
+            <MarketValue>15</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NormalPornNormal</defName>
+        <label>normal porn (normal)</label>
+        <description>Completely normal porn.</description>
+        <statBases>
+            <MarketValue>20</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NormalPornGood</defName>
+        <label>normal porn (good)</label>
+        <description>Completely normal porn.</description>
+        <statBases>
+            <MarketValue>25</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NormalPornExcellent</defName>
+        <label>normal porn (excellent)</label>
+        <description>Completely normal porn.</description>
+        <statBases>
+            <MarketValue>30</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NormalPornMasterwork</defName>
+        <label>normal porn (masterwork)</label>
+        <description>Completely normal porn.</description>
+        <statBases>
+            <MarketValue>50</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_NormalPornLegendary</defName>
+        <label>normal porn (legendary)</label>
+        <description>Completely normal porn.</description>
+        <statBases>
+            <MarketValue>100</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <!-- Masturbation porn -->
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_MasturbationPornAwful</defName>
+        <label>masturbation porn (awful)</label>
+        <description>Masturbation porn.</description>
+        <statBases>
+            <MarketValue>1</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_MasturbationPornPoor</defName>
+        <label>masturbation porn (poor)</label>
+        <description>Masturbation porn.</description>
+        <statBases>
+            <MarketValue>3</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_MasturbationPornNormal</defName>
+        <label>masturbation porn (normal)</label>
+        <description>Masturbation porn.</description>
+        <statBases>
+            <MarketValue>5</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_MasturbationPornGood</defName>
+        <label>masturbation porn (good)</label>
+        <description>Masturbation porn.</description>
+        <statBases>
+            <MarketValue>6</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_MasturbationPornExcellent</defName>
+        <label>masturbation porn (excellent)</label>
+        <description>Masturbation porn.</description>
+        <statBases>
+            <MarketValue>8</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_MasturbationPornMasterwork</defName>
+        <label>masturbation porn (masterwork)</label>
+        <description>Masturbation porn.</description>
+        <statBases>
+            <MarketValue>13</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_MasturbationPornLegendary</defName>
+        <label>masturbation porn (legendary)</label>
+        <description>Masturbation porn.</description>
+        <statBases>
+            <MarketValue>25</MarketValue>
+        </statBases>
+    </ThingDef>
+
+    <!-- Bestiality porn -->
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityPornAwful</defName>
+        <label>bestiality porn (awful)</label>
+        <description>Bestiality porn.</description>
+        <statBases>
+            <MarketValue>12</MarketValue>            <!-- 0.25 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityPornPoor</defName>
+        <label>bestiality porn (poor)</label>
+        <description>Bestiality porn.</description>
+        <statBases>
+            <MarketValue>25</MarketValue>            <!-- 0.50 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityPornNormal</defName>
+        <label>bestiality porn (normal)</label>
+        <description>Bestiality porn.</description>
+        <statBases>
+            <MarketValue>50</MarketValue>            <!-- 1.0 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityPornGood</defName>
+        <label>bestiality porn (good)</label>
+        <description>Bestiality porn.</description>
+        <statBases>
+            <MarketValue>62</MarketValue>            <!-- 1.25 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityPornExcellent</defName>
+        <label>bestiality porn (excellent)</label>
+        <description>Bestiality porn.</description>
+        <statBases>
+            <MarketValue>75</MarketValue>            <!-- 1.5 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityPornMasterwork</defName>
+        <label>bestiality porn (masterwork)</label>
+        <description>Bestiality porn.</description>
+        <statBases>
+            <MarketValue>125</MarketValue>            <!-- 2.5 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityPornLegendary</defName>
+        <label>bestiality porn (legendary)</label>
+        <description>Bestiality porn.</description>
+        <statBases>
+            <MarketValue>250</MarketValue>            <!-- 5 -->
+        </statBases>
+    </ThingDef>
+
+    <!-- Rape porn -->
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_RapePornAwful</defName>
+        <label>rape porn (awful)</label>
+        <description>Rape porn.</description>
+        <statBases>
+            <MarketValue>25</MarketValue>            <!-- 0.25 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_RapePornPoor</defName>
+        <label>rape porn (poor)</label>
+        <description>Rape porn.</description>
+        <statBases>
+            <MarketValue>50</MarketValue>            <!-- 0.50 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_RapePornNormal</defName>
+        <label>rape porn (normal)</label>
+        <description>Rape porn.</description>
+        <statBases>
+            <MarketValue>100</MarketValue>            <!-- 1.0 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_RapePornGood</defName>
+        <label>rape porn (good)</label>
+        <description>Rape porn.</description>
+        <statBases>
+            <MarketValue>125</MarketValue>            <!-- 1.25 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_RapePornExcellent</defName>
+        <label>rape porn (excellent)</label>
+        <description>Rape porn.</description>
+        <statBases>
+            <MarketValue>150</MarketValue>            <!-- 1.5 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_RapePornMasterwork</defName>
+        <label>rape porn (masterwork)</label>
+        <description>Rape porn.</description>
+        <statBases>
+            <MarketValue>250</MarketValue>            <!-- 2.5 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_RapePornLegendary</defName>
+        <label>rape porn (legendary)</label>
+        <description>Rape porn.</description>
+        <statBases>
+            <MarketValue>500</MarketValue>            <!-- 5 -->
+        </statBases>
+    </ThingDef>
+
+    <!-- Bestiality Rape porn -->
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityRapePornAwful</defName>
+        <label>bestiality rape porn (awful)</label>
+        <description>BestialityRape porn.</description>
+        <statBases>
+            <MarketValue>56</MarketValue>            <!-- 0.25 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityRapePornPoor</defName>
+        <label>bestiality rape porn (poor)</label>
+        <description>BestialityRape porn.</description>
+        <statBases>
+            <MarketValue>112</MarketValue>            <!-- 0.50 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityRapePornNormal</defName>
+        <label>bestiality rape porn (normal)</label>
+        <description>BestialityRape porn.</description>
+        <statBases>
+            <MarketValue>225</MarketValue>            <!-- 1.0 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityRapePornGood</defName>
+        <label>bestiality rape porn (good)</label>
+        <description>BestialityRape porn.</description>
+        <statBases>
+            <MarketValue>281</MarketValue>            <!-- 1.25 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityRapePornExcellent</defName>
+        <label>bestiality rape porn (excellent)</label>
+        <description>BestialityRape porn.</description>
+        <statBases>
+            <MarketValue>337</MarketValue>            <!-- 1.5 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityRapePornMasterwork</defName>
+        <label>bestiality rape porn (masterwork)</label>
+        <description>BestialityRape porn.</description>
+        <statBases>
+            <MarketValue>562</MarketValue>            <!-- 2.5 -->
+        </statBases>
+    </ThingDef>
+
+    <ThingDef ParentName="BI_PornBase">
+        <defName>BI_BestialityRapePornLegendary</defName>
+        <label>bestiality rape porn (legendary)</label>
+        <description>BestialityRape porn.</description>
+        <statBases>
+            <MarketValue>1125</MarketValue>            <!-- 5 -->
+        </statBases>
+    </ThingDef>
+
+</Defs>

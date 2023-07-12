@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+
+	<HediffDef>
+		<defName>BI_RecordingHediff</defName>
+		<label>recording</label>
+		<description>Recording video...</description>
+		<initialSeverity>1</initialSeverity>
+		<hediffClass>BipassedAddons.HediffComp_Recording</hediffClass>
+	</HediffDef>
+
+</Defs>

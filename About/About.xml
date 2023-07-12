@@ -19,6 +19,7 @@
         <li>bipassed.milkingmachine</li>
         <li>seohyeon.optimizationmeats</li>
     </loadAfter>
+    <url>https://github.com/bipassed/bipassed-addons</url>
     <modDependencies>
         <li>
             <packageId>OskarPotocki.VanillaFactionsExpanded.Core</packageId>

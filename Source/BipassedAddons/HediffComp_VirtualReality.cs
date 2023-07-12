@@ -10,6 +10,8 @@ namespace BipassedAddons
 {
     public class HediffComp_VirtualReality : HediffWithComps
     {
+        private int tickCountMain;
+        private int tickDay = 60000;
         public static float pawnWorth = 1;
         public static TraitDef[] positiveTraitList = { VariousDefOf.Kind, VariousDefOf.Transhumanist, VariousDefOf.Bisexual, VariousDefOf.Nimble, VariousDefOf.FastLearner, VariousDefOf.Undergrounder }; // Array of positive traits
         public static TraitDef[] negativeTraitList = { VariousDefOf.Jealous, VariousDefOf.SlowLearner, VariousDefOf.Bloodlust, VariousDefOf.DislikesMen, VariousDefOf.DislikesWomen, VariousDefOf.Greedy }; // Array of negative traits
@@ -17,8 +19,9 @@ namespace BipassedAddons
         public static HediffDef[] boostList = { VariousDefOf.BI_VirtualRealityTemporaryBoost_Manipulation, VariousDefOf.BI_VirtualRealityTemporaryBoost_Moving, VariousDefOf.BI_VirtualRealityTemporaryBoost_Talking };
         public override void Tick()
         {
+            tickCountMain++;
             Pawn pawn = this.pawn;
-            if (pawn.IsHashIntervalTick(60000)) // Approximately one in-game day, 60000
+            if (tickCountMain >= tickDay) // Approximately one in-game day, 60000
             {
                 Random random = new Random();
                 if (pawn.IsColonist || pawn.IsPrisoner || pawn.IsSlave)

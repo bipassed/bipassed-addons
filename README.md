@@ -4,7 +4,7 @@ Adds a bunch of little things that don't deserve an entire mod slot on their own
 ## REQUIRES [VANILLA EXPANDED FRAMEWORK](https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105)
 
 ## [Core](https://store.steampowered.com/app/294100/RimWorld/)
-**Lobotomy:** Simple and fairly inexpensive way to stop a colonist or prisoner from complaining so much. Lowers consciousness by 30%, chance of death on failure is 100%. Causes chance of berserk, psychotic wander and sad wander every 120 days or so if successful. **NOTE:** This gives a config error, it can be safely ignored.
+**Lobotomy:** Simple and fairly inexpensive way to stop a colonist or prisoner from complaining so much. Lowers consciousness by 30%, chance of death on failure is 100%. Causes chance of psychotic wander every 30 days or so if successful.
 
 **Vertical Hydroponics:** Adds a 1x1 building that grows 4 plants in once space.
 
@@ -31,7 +31,7 @@ More to come when I add Milking Machine compatability.
 
 Also adds a bed that refills the hunger need at the cost of 640w of electricity, made specifically for long-term use.
 
-**One million Silver Endgame:** If you save up one million silver, you can build the silver stash in the Ship architect menu. This is an immediate end-game winning scenario.
+**One Million Silver Endgame:** If you save up one million silver, you can build the silver stash in the Ship architect menu. This is an immediate end-game winning scenario.
 
 ## [Vanilla Weapons Expanded - Non-Lethal](https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354)
 **Non-Lethal Turrets:** Adds a single turret building that fires slightly faster and one extra bullet per burst at the cost of the bullets themselves being the same as the non-lethal pistol.
@@ -68,6 +68,8 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 ## [RimJobWorld](https://www.loverslab.com/files/file/7257-rimjobworld/)
 **Rapeshroom:** New drug made from 10 humpshroom and 1 neutroamine. Induces a near-constant random rape mental break for about a day. Why you would ever use this outside of religious or lore reasons is beyond me.
 
+**Recording Porn:** New apparel made at a machining table. Equip it and have sex to record porn! Drops porn USB sticks that can be sold to pretty much any trader. If **Sexperience** is active, the quality of the porn relies on the sex skill. Otherwise, it relies on social.
+
 **Hyposexual:** New trait. Reduces sex drive to 0%.
 
 **Ultrasexual:** New trait. Incrases sex drive to 1000%.
@@ -75,4 +77,4 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 **Instinct Breeder:** New trait. Increases sex drive to 100000%.
 
 ## [Milking Machine](https://github.com/bipassed/rjw-milking-machine)
-**Galactorrhea Implant:** Induces a permanent lactation at a slight consciousness debuff.
+**Galactorrhea Implant:** Induces a permanent lactation at a slight consciousness debuff. **NOT FINISHED YET**

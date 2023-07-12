@@ -10,15 +10,18 @@ namespace BipassedAddons
 {
     public class Building_VirtualRealityBed : Building_Bed
     {
+        private int tickCountMain;
+        private int tickTwoHours;
         public override void Tick()
         {
+            tickCountMain++;
             base.Tick();
             // Check if bed has any occupants, then if so increase needs every three hours
             if (AnyOccupants && HasPowerConnection(this))
             {
                 //Log.Message("Pawn is in bed");
                 Pawn pawn = GetCurOccupant(0);
-                if (pawn.IsHashIntervalTick(5000)) // Two hours 5000
+                if (tickCountMain >= tickTwoHours) // Two hours 5000
                 {
                     //Log.Message("Providing pawn with needs");
                     if (pawn.needs?.rest != null)

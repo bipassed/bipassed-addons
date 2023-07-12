@@ -10,15 +10,22 @@ namespace BipassedAddons
 {
     public class HediffComp_VirtualRealityLewd : HediffWithComps
     {
+        private int tickCountMain;
+        private int tickCountSecondary;
+        private int tickDay = 60000;
+        private int tickSixHours = 15000;
         public static TraitDef[] lewdTraitList = { VariousDefOf.Rapist, VariousDefOf.Necrophiliac, VariousDefOf.Nymphomaniac, VariousDefOf.Zoophile, VariousDefOf.CumSlut, VariousDefOf.FootSlut, VariousDefOf.ButtSlut };
         public static bool Sexperience = ModsConfig.IsActive("rjw.sexperience");
         public static float pawnWorth = 1;
         public override void Tick()
         {
+            tickCountMain++;
+            tickCountSecondary++;
             Pawn pawn = this.pawn;
             Random random = new Random();
-            if (pawn.IsHashIntervalTick(60000)) // Approximately one day 60000
+            if (tickCountMain >= tickDay) // Approximately one day 60000
             {
+                tickCountMain = 0;
                 if (pawn.IsColonist || pawn.IsPrisoner || pawn.IsSlave)
                 {
                     // Higher silver drop
@@ -69,8 +76,9 @@ namespace BipassedAddons
                     }
                 }
             }
-            if (pawn.IsHashIntervalTick(15000)) // Six hours 15000
+            if (tickCountSecondary >= tickSixHours) // Six hours 15000
             {
+                tickCountSecondary = 0;
                 if (pawn.IsColonist || pawn.IsPrisoner || pawn.IsSlave)
                 {
                     // Spawns cum filth

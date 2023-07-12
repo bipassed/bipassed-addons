@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="ApparelBase">
+        <defName>BI_Apparel_Camera</defName>
+        <label>camera</label>
+        <description>A very simple compact camera, great for recording acts of passion.</description>
+        <thingClass>Apparel</thingClass>
+        <graphicData>
+            <texPath>Things/Pawn/Humanlike/Apparel/Camera/Camera</texPath>
+            <graphicClass>Graphic_Single</graphicClass>
+        </graphicData>
+        <tickerType>Normal</tickerType>
+        <techLevel>Industrial</techLevel>
+        <statBases>
+            <Mass>1</Mass>
+            <WorkToMake>4500</WorkToMake>
+            <Flammability>0.4</Flammability>
+            <EquipDelay>2</EquipDelay>
+        </statBases>
+        <costList>
+            <ComponentIndustrial>2</ComponentIndustrial>
+            <Steel>50</Steel>
+        </costList>
+        <recipeMaker>
+            <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
+            <workSpeedStat>GeneralLaborSpeed</workSpeedStat>
+            <workSkill>Crafting</workSkill>
+            <effectWorking>Smith</effectWorking>
+            <soundWorking>Recipe_Machining</soundWorking>
+            <recipeUsers>
+                <li>TableMachining</li>
+            </recipeUsers>
+            <useIngredientsForColor>false</useIngredientsForColor>
+            <skillRequirements>
+                <Crafting>2</Crafting>
+            </skillRequirements>
+        </recipeMaker>
+        <thingCategories>
+            <li>ApparelUtility</li>
+        </thingCategories>
+        <apparel>
+            <countsAsClothingForNudity>false</countsAsClothingForNudity>
+            <careIfWornByCorpse>false</careIfWornByCorpse>
+            <careIfDamaged>false</careIfDamaged>
+            <wearPerDay>0</wearPerDay>
+            <bodyPartGroups>
+                <li>Waist</li>
+            </bodyPartGroups>
+            <layers>
+                <li>Belt</li>
+            </layers>
+            <developmentalStageFilter>Child, Adult</developmentalStageFilter>
+        </apparel>
+        <comps>
+            <li Class="VFECore.CompProperties_ApparelHediffs">
+                <hediffDefnames>
+                    <li>BI_RecordingHediff</li>
+                </hediffDefnames>
+            </li>
+        </comps>
+        <allowedArchonexusCount>1</allowedArchonexusCount>
+    </ThingDef>
+
+</Defs>

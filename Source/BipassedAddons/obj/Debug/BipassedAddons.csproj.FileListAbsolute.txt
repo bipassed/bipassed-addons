@@ -68,3 +68,7 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Sour
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\obj\Debug\BipassedAddons.csproj.CopyComplete
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\obj\Debug\BipassedAddons.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\obj\Debug\BipassedAddons.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\1.4\Core\Assemblies\BipassedAddons.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\1.4\Core\Assemblies\BipassedAddons.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\bin\Debug\RJW.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\bin\Debug\0MultiplayerAPI.dll
