@@ -17,7 +17,7 @@ namespace BipassedAddons
     public class HediffComp_Recording : HediffWithComps
     {
         public int tickToReset;
-        public int tickTarget = 10000;
+        public int tickTarget = 5000;
         public ThingDef thingDef;
         public static bool itemSpawned;
         public static bool Sexperience = ModsConfig.IsActive("rjw.sexperience");
@@ -625,11 +625,11 @@ namespace BipassedAddons
                     }
                 }*/
             }
-            else if (tickToReset >= tickTarget) // Should happen every four hours
+            else if (tickToReset >= tickTarget)
             {
                 itemSpawned = false;
                 tickToReset = 0;
-                //Log.Error("Shit works yo");
+                Log.Message("Tick has been reset");
             }
         }
     }

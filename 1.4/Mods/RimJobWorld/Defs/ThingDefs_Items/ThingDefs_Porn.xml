@@ -18,6 +18,10 @@
         <thingCategories>
             <li>Manufactured</li>
         </thingCategories>
+        <tradeability>Sellable</tradeability>
+        <tradeTags>
+            <li>Art</li>
+        </tradeTags>
     </ThingDef>
 
     <!-- Normal porn -->

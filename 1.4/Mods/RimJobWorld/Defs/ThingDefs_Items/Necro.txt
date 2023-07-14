@@ -1,4 +1,6 @@
 
+Moving this shit here cuz the associated C# doesn't seem to work.
+
     <!-- Necro porn -->
     <ThingDef ParentName="BI_PornBase">
         <defName>BI_NecroPornAwful</defName>
