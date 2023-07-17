@@ -64,6 +64,9 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 
 **NOTE:** The RimJobWorld patch will cause errors relating to no hediff found and no prerequisite found. These are **safe to ignore**. I'll attempt to fix one of the errors later.
 
+## [Research Data](https://steamcommunity.com/sharedfiles/filedetails/?id=3001121619)
+**Analyzer Data Rebalance:** Increases the fuelConsumptionRate from 0.33 (3 days) to 0.066 (15 days). This is done because the analyzer data is still used even while nobody is researching.
+
 ## [UnderWhere](https://steamcommunity.com/sharedfiles/filedetails/?id=1870010563) 
 **Gender-Neutral Underwear:** Makes all underwear gender-neutral. If **Identity: Dysphoria** is active, provides a small boost of masculinity and femininity to male and female underwear.
 

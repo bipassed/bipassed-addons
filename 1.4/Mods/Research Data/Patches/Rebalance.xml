@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>/Defs/ThingDef[defName = "MultiAnalyzer"]/comps/li[@Class="CompProperties_Refuelable"]/fuelConsumptionRate</xpath>
+        <value>
+            <fuelConsumptionRate>0.066</fuelConsumptionRate>
+        </value>
+    </Operation>
+
+</Patch>
