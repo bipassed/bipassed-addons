@@ -2,7 +2,7 @@
 <Patch>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>/Defs/ThoughtDef[defName="DysphoricTraitGood"]/stages</xpath>
+        <xpath>Defs/ThoughtDef[defName="DysphoricTraitGood"]/stages</xpath>
         <value>
             <stages>
                 <li>

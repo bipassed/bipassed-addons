@@ -1,25 +1,25 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]/statBases</xpath>
+        <xpath>Defs/ThingDef[defName="Joy_InudstrialComputer"]/statBases</xpath>
         <value>
             <WorkTableWorkSpeedFactor>0.75</WorkTableWorkSpeedFactor>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]/comps</xpath>
+        <xpath>Defs/ThingDef[defName="Joy_InudstrialComputer"]/comps</xpath>
         <value>
             <li Class="CompProperties_Breakdownable"/>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]/building</xpath>
+        <xpath>Defs/ThingDef[defName="Joy_InudstrialComputer"]/building</xpath>
         <value>
             <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Joy_InudstrialComputer"]</xpath>
+        <xpath>Defs/ThingDef[defName="Joy_InudstrialComputer"]</xpath>
         <value>
             <recipes>
                 <li>BI_PlayShootingGames</li>
@@ -43,7 +43,7 @@
     </Operation>
 
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]</xpath>
+        <xpath>Defs/ThingDef[defName="Joy_ModernComputer"]</xpath>
         <value>
             <recipes>
                 <li>BI_PlayShootingGames</li>
@@ -66,19 +66,19 @@
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]/statBases</xpath>
+        <xpath>Defs/ThingDef[defName="Joy_ModernComputer"]/statBases</xpath>
         <value>
             <WorkTableWorkSpeedFactor>1.2</WorkTableWorkSpeedFactor>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]/comps</xpath>
+        <xpath>Defs/ThingDef[defName="Joy_ModernComputer"]/comps</xpath>
         <value>
             <li Class="CompProperties_Breakdownable"/>
         </value>
     </Operation>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Joy_ModernComputer"]/building</xpath>
+        <xpath>Defs/ThingDef[defName="Joy_ModernComputer"]/building</xpath>
         <value>
             <spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
         </value>

@@ -14,6 +14,8 @@ Adds a bunch of little things that don't deserve an entire mod slot on their own
 
 **Cheaper Bridges:** Reduces the price of all bridges from 12 to 6.
 
+**Cheaper Carpet:** Reduces the price of carpet from 7 cloth to 6.
+
 **Virtual Reality:** Adds in a recreational virtual reality headset made at a tailoring bench. Every 24 hours, the headset will drop 7% of the wearer's market value (as payment for hooking up to the intergalactic cyberspace), and completely fill the recreation gain. Wearing the headset provides random chance bonuses as well. These include:
 - 1 in 60 to gain a small amount of experience in any given skill.
 - 1 in 100 to temporarily boost moving, manipulation, or speech.
@@ -75,6 +77,9 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 **Ultrasexual:** New trait. Incrases sex drive to 1000%.
 
 **Instinct Breeder:** New trait. Increases sex drive to 100000%.
+
+## [RJW Sexperience]()
+**Cum Is Okay:** Removes the optimalityOffsetHumanlikes and increases nutrition from 0.01 to 0.05.
 
 ## [Milking Machine](https://github.com/bipassed/rjw-milking-machine)
 **Galactorrhea Implant:** Induces a permanent lactation at a slight consciousness debuff. **NOT FINISHED YET**

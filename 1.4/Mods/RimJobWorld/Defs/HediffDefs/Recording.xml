@@ -7,6 +7,11 @@
 		<description>Recording video...</description>
 		<initialSeverity>1</initialSeverity>
 		<hediffClass>BipassedAddons.HediffComp_Recording</hediffClass>
+		<comps>
+			<li Class="HediffCompProperties_SeverityPerDay">
+				<severityPerDay>1</severityPerDay>
+			</li>
+		</comps>
 	</HediffDef>
 
 </Defs>

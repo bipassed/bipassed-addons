@@ -19,8 +19,8 @@
             <EquipDelay>2</EquipDelay>
         </statBases>
         <costList>
-            <ComponentIndustrial>2</ComponentIndustrial>
-            <Steel>50</Steel>
+            <ComponentIndustrial>1</ComponentIndustrial>
+            <Steel>35</Steel>
         </costList>
         <recipeMaker>
             <unfinishedThingDef>UnfinishedBelt</unfinishedThingDef>
@@ -45,10 +45,10 @@
             <careIfDamaged>false</careIfDamaged>
             <wearPerDay>0</wearPerDay>
             <bodyPartGroups>
-                <li>Waist</li>
+                <li>FullHead</li>
             </bodyPartGroups>
             <layers>
-                <li>Belt</li>
+                <li>Overhead</li>
             </layers>
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
         </apparel>

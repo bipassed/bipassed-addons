@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="GatheredCum"]/ingestible/optimalityOffsetHumanlikes</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/ThingDef[defName="GatheredCum"]/statBases/Nutrition</xpath>
+        <value>
+            <Nutrition>0.05</Nutrition>
+        </value>
+    </Operation>
+
+</Patch>

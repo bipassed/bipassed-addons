@@ -13,5 +13,6 @@
 		<li IfModActive="vanillaexpanded.vfearchitect">1.4/Mods/Vanilla Furniture Expanded - Architect</li>
 		<li IfModActive="bipassed.milkingmachine">1.4/Mods/Milking Machine</li>
 		<li IfModActive="seohyeon.optimizationmeats">1.4/Mods/Optimization Meats - C#</li>
+		<li IfModActive="rjw.sexperience">1.4/Mods/RJW Sexperience</li>
 	</v1.4>
 </loadFolders>

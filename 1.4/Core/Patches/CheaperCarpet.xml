@@ -2,10 +2,10 @@
 <Patch>
 
     <Operation Class="PatchOperationReplace">
-        <xpath>Defs/TerrainDef[defName="Bridge"]/costList</xpath>
+        <xpath>Defs/TerrainTemplateDef[defName="Carpet"]/costList</xpath>
         <value>
             <costList>
-                <WoodLog>6</WoodLog>
+                <Cloth>6</Cloth>
             </costList>
         </value>
     </Operation>

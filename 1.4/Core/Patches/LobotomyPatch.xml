@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Patch>
     <Operation Class="PatchOperationAdd">
-        <xpath>/Defs/ThingDef[defName="Human"]/recipes</xpath>
+        <xpath>Defs/ThingDef[defName="Human"]/recipes</xpath>
         <value>
             <li>BI_Lobotomize</li>
         </value>

@@ -2,7 +2,7 @@
 <Patch>
 
     <Operation Class="PatchOperationAdd" MayRequire="vanillaexpanded.vappe">
-        <xpath>/Defs/ThingDef[defName="VAE_Handwear_Gloves" or defName="VAE_Footwear_Boots" or defName="VAE_Footwear_Shoes"]/apparel</xpath>
+        <xpath>Defs/ThingDef[defName="VAE_Handwear_Gloves" or defName="VAE_Footwear_Boots" or defName="VAE_Footwear_Shoes"]/apparel</xpath>
         <value>
             <developmentalStageFilter>Child, Adult</developmentalStageFilter>
         </value>
