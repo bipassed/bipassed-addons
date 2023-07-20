@@ -74,6 +74,7 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 **Rapeshroom:** New drug made from 10 humpshroom and 1 neutroamine. Induces a near-constant random rape mental break for about a day. Why you would ever use this outside of religious or lore reasons is beyond me.
 
 **Recording Porn:** New apparel made at a machining table. Equip it and have sex to record porn! Drops porn USB sticks that can be sold to pretty much any trader. If **Sexperience** is active, the quality of the porn relies on the sex skill. Otherwise, it relies on social.
+**NOTE:** Currently broken, drops more than it should and I don't know why.
 
 **Hyposexual:** New trait. Reduces sex drive to 0%.
 
