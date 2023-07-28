@@ -3,7 +3,7 @@
 
     <ThingDef ParentName="BuildingBase">
         <defName>BI_MillionSilverWin</defName>
-        <label>silver stash</label>
+        <label>silver stash (1,000,000)</label>
         <description>Build this to win the game.</description>
         <thingClass>BipassedAddons.Building_SilverStash</thingClass>
         <graphicData>
@@ -34,11 +34,47 @@
             <destroySound>BuildingDestroyed_Metal_Small</destroySound>
         </building>
         <costList>
-            <Silver>100000</Silver>
+            <Silver>1000000</Silver>
         </costList>
         <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
-        <designationHotKey>Misc3</designationHotKey>
     </ThingDef>
 
+    <ThingDef ParentName="BuildingBase">
+        <defName>BI_TwoFiftyKSilverWin</defName>
+        <label>silver stash (250,000)</label>
+        <description>Build this to win the game.</description>
+        <thingClass>BipassedAddons.Building_SilverStash</thingClass>
+        <graphicData>
+            <texPath>Things/Building/Ship/ShipComputerCore</texPath>
+            <graphicClass>Graphic_Multi</graphicClass>
+            <drawSize>(2,2)</drawSize>
+            <shadowData>
+                <volume>(2.76, 0.5, 2.66)</volume>
+                <offset>(0,0,-0.05)</offset>
+            </shadowData>
+        </graphicData>
+        <rotatable>false</rotatable>
+        <altitudeLayer>Building</altitudeLayer>
+        <passability>Impassable</passability>
+        <blockWind>true</blockWind>
+        <fillPercent>1</fillPercent>
+        <blockLight>true</blockLight>
+        <canOverlapZones>false</canOverlapZones>
+        <statBases>
+            <WorkToBuild>16000</WorkToBuild>
+            <MaxHitPoints>150</MaxHitPoints>
+            <Flammability>0</Flammability>
+        </statBases>
+        <tickerType>Normal</tickerType>
+        <size>(2,2)</size>
+        <designationCategory>Ship</designationCategory>
+        <building>
+            <destroySound>BuildingDestroyed_Metal_Small</destroySound>
+        </building>
+        <costList>
+            <Silver>250000</Silver>
+        </costList>
+        <terrainAffordanceNeeded>Heavy</terrainAffordanceNeeded>
+    </ThingDef>
 
 </Defs>

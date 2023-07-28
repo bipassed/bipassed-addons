@@ -33,7 +33,10 @@ More to come when I add Milking Machine compatability.
 
 Also adds a bed that refills the hunger need at the cost of 640w of electricity, made specifically for long-term use.
 
-**One Million Silver Endgame:** If you save up one million silver, you can build the silver stash in the Ship architect menu. This is an immediate end-game winning scenario.
+**One Million Silver Endgame:** If you save up one million silver, you can build the silver stash in the Ship architect menu. This is an immediate end-game winning scenario. Also incdlues a 250,000k silver ending in case you wanna do a shorter run.
+
+## [Biotech][https://store.steampowered.com/app/1826140/RimWorld__Biotech/]
+**Shortened implant recovery:** From 2 years to 15 days.
 
 ## [Vanilla Weapons Expanded - Non-Lethal](https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354)
 **Non-Lethal Turrets:** Adds a single turret building that fires slightly faster and one extra bullet per burst at the cost of the bullets themselves being the same as the non-lethal pistol.
@@ -67,14 +70,16 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 ## [Research Data](https://steamcommunity.com/sharedfiles/filedetails/?id=3001121619)
 **Analyzer Data Rebalance:** Increases the fuelConsumptionRate from 0.33 (3 days) to 0.066 (15 days). This is done because the analyzer data is still used even while nobody is researching.
 
+## [Mines 2.0](https://steamcommunity.com/sharedfiles/filedetails/?id=2503894706)
+**Jewlery Patch:** Allows you to mine for the Jewlery ores like diamond, ruby, and sapphire.
+
 ## [UnderWhere](https://steamcommunity.com/sharedfiles/filedetails/?id=1870010563) 
 **Gender-Neutral Underwear:** Makes all underwear gender-neutral. If **Identity: Dysphoria** is active, provides a small boost of masculinity and femininity to male and female underwear.
 
 ## [RimJobWorld](https://www.loverslab.com/files/file/7257-rimjobworld/)
 **Rapeshroom:** New drug made from 10 humpshroom and 1 neutroamine. Induces a near-constant random rape mental break for about a day. Why you would ever use this outside of religious or lore reasons is beyond me.
 
-**Recording Porn:** New apparel made at a machining table. Equip it and have sex to record porn! Drops porn USB sticks that can be sold to pretty much any trader. If **Sexperience** is active, the quality of the porn relies on the sex skill. Otherwise, it relies on social.
-**NOTE:** Currently broken, drops more than it should and I don't know why.
+**Porn Camera:** Create a camera building that, for each pawn having sex in its radius, drops a sellable porn item. Pawn must be in radius of the camera to regenerate the urge to have sex. Optimal placements are in bedrooms.
 
 **Hyposexual:** New trait. Reduces sex drive to 0%.
 

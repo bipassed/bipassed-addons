@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThoughtDef>
+        <defName>BI_BeingRecorded</defName>
+        <workerClass>BipassedAddons.ThoughtWorker_RecordingPorn</workerClass>
+        <developmentalStageFilter>Baby, Child, Adult</developmentalStageFilter>
+        <stages>
+            <li>
+                <label>being recorded</label>
+                <description>I'm being recorded... Maybe I should...</description>
+                <baseMoodEffect>0</baseMoodEffect>
+            </li>
+        </stages>
+    </ThoughtDef>
+
+</Defs>

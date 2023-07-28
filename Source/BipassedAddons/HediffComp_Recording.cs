@@ -16,22 +16,18 @@ namespace BipassedAddons
     // Necro = 150s
     public class HediffComp_Recording : HediffWithComps
     {
-        public int tickToReset;
-        public int tickTarget = 5000;
         public ThingDef thingDef;
-        public static bool itemSpawned;
         public static bool Sexperience = ModsConfig.IsActive("rjw.sexperience");
         public override void Tick()
         {
-            tickToReset++;
             Pawn pawn = this.pawn;
-            if (itemSpawned == false)
+            if (pawn.health.hediffSet.GetFirstHediffOfDef(VariousDefOf.BI_RecordingHediff).Severity >= 1f)
             {
                 Random random = new Random();
                 // Normal sex
                 if (pawn.jobs.curJob.def == VariousDefOf.JoinInBed || pawn.jobs.curJob.def == VariousDefOf.GettinLoved || pawn.jobs.curJob.def == VariousDefOf.GettinLicked || pawn.jobs.curJob.def == VariousDefOf.GettinSucked || pawn.jobs.curJob.def == VariousDefOf.Quickie || pawn.jobs.curJob.def == VariousDefOf.GettingQuickie)
                 {
-                    itemSpawned = true;
+                    pawn.health.hediffSet.GetFirstHediffOfDef(VariousDefOf.BI_RecordingHediff).Severity = 0.01f;
                     if (Sexperience)
                     {
                         int skillLevel = pawn.skills.GetSkill(VariousDefOf.Sex).Level;
@@ -114,9 +110,9 @@ namespace BipassedAddons
                     }
                 }
                 // Masturbation
-                else if (pawn.jobs.curJob.def == VariousDefOf.RJW_Masturbate)
+                if (pawn.jobs.curJob.def == VariousDefOf.RJW_Masturbate)
                 {
-                    itemSpawned = true;
+                    pawn.health.hediffSet.GetFirstHediffOfDef(VariousDefOf.BI_RecordingHediff).Severity = 0.01f;
                     if (Sexperience)
                     {
                         int skillLevel = pawn.skills.GetSkill(VariousDefOf.Sex).Level;
@@ -199,9 +195,9 @@ namespace BipassedAddons
                     }
                 }
                 // Bestiality
-                else if (pawn.jobs.curJob.def == VariousDefOf.GettinBred || pawn.jobs.curJob.def == VariousDefOf.Breed || pawn.jobs.curJob.def == VariousDefOf.RJW_Mate || pawn.jobs.curJob.def == VariousDefOf.Bestiality || pawn.jobs.curJob.def == VariousDefOf.BestialityForFemale)
+                if (pawn.jobs.curJob.def == VariousDefOf.GettinBred || pawn.jobs.curJob.def == VariousDefOf.Breed || pawn.jobs.curJob.def == VariousDefOf.RJW_Mate || pawn.jobs.curJob.def == VariousDefOf.Bestiality || pawn.jobs.curJob.def == VariousDefOf.BestialityForFemale)
                 {
-                    itemSpawned = true;
+                    pawn.health.hediffSet.GetFirstHediffOfDef(VariousDefOf.BI_RecordingHediff).Severity = 0.01f;
                     if (Sexperience)
                     {
                         int skillLevel = pawn.skills.GetSkill(VariousDefOf.Sex).Level;
@@ -284,9 +280,9 @@ namespace BipassedAddons
                     }
                 }
                 // Rape
-                else if (pawn.jobs.curJob.def == VariousDefOf.GettinRaped || pawn.jobs.curJob.def == VariousDefOf.RapeComfortPawn || pawn.jobs.curJob.def == VariousDefOf.RandomRape)
-                {      
-                    itemSpawned = true;
+                if (pawn.jobs.curJob.def == VariousDefOf.GettinRaped || pawn.jobs.curJob.def == VariousDefOf.RapeComfortPawn || pawn.jobs.curJob.def == VariousDefOf.RandomRape)
+                {
+                    pawn.health.hediffSet.GetFirstHediffOfDef(VariousDefOf.BI_RecordingHediff).Severity = 0.01f;
                     Pawn target = (Pawn)pawn.jobs.curJob.targetA;
                     if (Sexperience)
                     {
@@ -332,7 +328,6 @@ namespace BipassedAddons
                         }
                         else // Just rape
                         {
-
                             if (skillLevel <= 2) // Awful 0-2
                             {
                                 thingDef = VariousDefOf.BI_RapePornAwful;
@@ -455,10 +450,10 @@ namespace BipassedAddons
                     }
                 }
                 // Necro
-                /*else if (pawn.jobs.curJob.def == VariousDefOf.ViolateCorpse)
+                if (pawn.jobs.curJob.def == VariousDefOf.ViolateCorpse)
                 {
+                    pawn.health.hediffSet.GetFirstHediffOfDef(VariousDefOf.BI_RecordingHediff).Severity = 0.01f;
                     Pawn target = (Pawn)pawn.jobs.curJob.targetA;
-                    itemSpawned = true;
                     if (Sexperience)
                     {
                         int skillLevel = pawn.skills.GetSkill(VariousDefOf.Sex).Level;
@@ -623,13 +618,7 @@ namespace BipassedAddons
                             }
                         }
                     }
-                }*/
-            }
-            else if (tickToReset >= tickTarget)
-            {
-                itemSpawned = false;
-                tickToReset = 0;
-                Log.Message("Tick has been reset");
+                }
             }
         }
     }

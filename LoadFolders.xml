@@ -15,5 +15,6 @@
 		<li IfModActive="seohyeon.optimizationmeats">1.4/Mods/Optimization Meats - C#</li>
 		<li IfModActive="rjw.sexperience">1.4/Mods/RJW Sexperience</li>
 		<li IfModActive="kongkim.researchdata">1.4/Mods/Research Data</li>
+		<li IfModActive="wexman.mines">1.4/Mods/Mines</li>
 	</v1.4>
 </loadFolders>

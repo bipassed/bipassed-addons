@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Patch>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/HediffDef[defName="XenogermReplicating"]/comps/li/disappearsAfterTicks</xpath>
+        <value>
+            <disappearsAfterTicks>900000</disappearsAfterTicks>
+        </value>
+    </Operation>
+
+</Patch>

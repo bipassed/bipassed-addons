@@ -71,6 +71,10 @@ namespace BipassedAddons
         public static TraitDef ButtSlut;
         [MayRequire("rim.job.world")]
         public static ThingDef FilthCum;
+        [MayRequire("rim.job.world")]
+        public static ThingDef BI_PornCamera;
+        [MayRequire("rim.job.world")]
+        public static HediffDef BI_RecordingHediff;
 
         // Normal sex JobDefs
         [MayRequire("rim.job.world")]
@@ -180,7 +184,7 @@ namespace BipassedAddons
         public static ThingDef BI_BestialityRapePornMasterwork;
         [MayRequire("rim.job.world")]
         public static ThingDef BI_BestialityRapePornLegendary;
-        /*[MayRequire("rim.job.world")]
+        [MayRequire("rim.job.world")]
         public static ThingDef BI_NecroPornAwful;
         [MayRequire("rim.job.world")]
         public static ThingDef BI_NecroPornPoor;
@@ -207,6 +211,6 @@ namespace BipassedAddons
         [MayRequire("rim.job.world")]
         public static ThingDef BI_NecroBestialityPornMasterwork;
         [MayRequire("rim.job.world")]
-        public static ThingDef BI_NecroBestialityPornLegendary;*/
+        public static ThingDef BI_NecroBestialityPornLegendary;
     }
 }

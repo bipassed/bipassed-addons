@@ -1,5 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
 
-Moving this shit here cuz the associated C# doesn't seem to work.
+<Defs>
 
     <!-- Necro porn -->
     <ThingDef ParentName="BI_PornBase">
@@ -128,3 +129,5 @@ Moving this shit here cuz the associated C# doesn't seem to work.
             <MarketValue>1500</MarketValue>            <!-- 5 -->
         </statBases>
     </ThingDef>
+
+</Defs>
