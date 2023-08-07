@@ -16,5 +16,6 @@
 		<li IfModActive="rjw.sexperience">1.4/Mods/RJW Sexperience</li>
 		<li IfModActive="kongkim.researchdata">1.4/Mods/Research Data</li>
 		<li IfModActive="wexman.mines">1.4/Mods/Mines</li>
+		<li IfModActive="noobertnebulous.vidtuber">1.4/Mods/Noobert Nebulous - Vidtuber</li>
 	</v1.4>
 </loadFolders>

@@ -65,7 +65,6 @@ C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Sour
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\bin\Debug\UnityEngine.InputModule.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\obj\Debug\BipassedAddons.csproj.AssemblyReference.cache
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\obj\Debug\BipassedAddons.csproj.CoreCompileInputs.cache
-C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\obj\Debug\BipassedAddons.csproj.CopyComplete
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\obj\Debug\BipassedAddons.dll
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\Source\BipassedAddons\obj\Debug\BipassedAddons.pdb
 C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\bipassed-addons\1.4\Core\Assemblies\BipassedAddons.dll

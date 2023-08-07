@@ -10,8 +10,8 @@ namespace BipassedAddons
 {
     public class Building_VirtualRealityBed : Building_Bed
     {
-        private int tickCountMain;
-        private int tickTwoHours;
+        int tickCountMain;
+        int tickTwoHours = 5000;
         public override void Tick()
         {
             tickCountMain++;

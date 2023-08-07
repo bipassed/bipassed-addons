@@ -5,6 +5,7 @@
         <defName>BI_PornCamera</defName>
         <label>porn camera</label>
         <description>Records people having sex! Yum!?</description>
+        <thingClass>BipassedAddons.Building_PornCamera</thingClass>
         <graphicData>
             <texPath>Things/Building/Special/PsychicEmanator</texPath>
             <graphicClass>Graphic_Single</graphicClass>

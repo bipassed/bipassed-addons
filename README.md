@@ -87,8 +87,13 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 
 **Instinct Breeder:** New trait. Increases sex drive to 100000%.
 
-## [RJW Sexperience]()
+## [RJW Sexperience](https://www.loverslab.com/topic/193448-mod-rjw-sexperience-continued/)
 **Cum Is Okay:** Removes the optimalityOffsetHumanlikes and increases nutrition from 0.01 to 0.05.
 
+# UNFINISHED - NOT WORKING
+
 ## [Milking Machine](https://github.com/bipassed/rjw-milking-machine)
-**Galactorrhea Implant:** Induces a permanent lactation at a slight consciousness debuff. **NOT FINISHED YET**
+**Galactorrhea Implant:** Induces a permanent lactation at a slight consciousness debuff.
+
+## [Noobert Nebulous - Vidtuber](https://steamcommunity.com/sharedfiles/filedetails/?id=3013420224)
+**Lewd video tag:** Applying this tag will check the size of a pawn's bits and multiply the output of views and subscribers.
