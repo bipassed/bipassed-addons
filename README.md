@@ -35,7 +35,7 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 
 **One Million Silver Endgame:** If you save up one million silver, you can build the silver stash in the Ship architect menu. This is an immediate end-game winning scenario. Also incdlues a 250,000k silver ending in case you wanna do a shorter run.
 
-## [Biotech][https://store.steampowered.com/app/1826140/RimWorld__Biotech/]
+## [Biotech](https://store.steampowered.com/app/1826140/RimWorld__Biotech/)
 **Shortened implant recovery:** From 2 years to 15 days.
 
 ## [Vanilla Weapons Expanded - Non-Lethal](https://steamcommunity.com/sharedfiles/filedetails/?id=2454918354)
