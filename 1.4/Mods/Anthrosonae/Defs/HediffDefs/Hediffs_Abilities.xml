@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <HediffDef>
+        <defName>BI_TransfurmationHediff</defName>
+        <hediffClass>HediffWithComps</hediffClass>
+        <label>transfurming</label>
+        <description>Transfurming a pawn...</description>
+        <defaultLabelColor>(1,0,0.5)</defaultLabelColor>
+        <scenarioCanAdd>false</scenarioCanAdd>
+        <initialSeverity>1</initialSeverity>
+        <maxSeverity>1</maxSeverity>
+        <comps>
+            <li Class="HediffCompProperties_SeverityPerDay">
+                <severityPerDay>-10</severityPerDay>
+            </li>
+            <li Class="BipassedAddons.CompProperties_GenitalBuff" />
+        </comps>
+    </HediffDef>
+
+</Defs>

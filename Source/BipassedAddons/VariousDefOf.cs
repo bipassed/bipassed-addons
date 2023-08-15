@@ -52,6 +52,28 @@ namespace BipassedAddons
         public static SkillDef Artistic;
         public static SkillDef Crafting;
 
+        // Anthrosonae
+        [MayRequire("atk.anthrosonae")]
+        public static XenotypeDef ATK_Anthrocat;
+        [MayRequire("atk.anthrosonae")]
+        public static XenotypeDef ATK_Anthrocow;
+        [MayRequire("atk.anthrosonae")]
+        public static XenotypeDef ATK_Anthrodeer;
+        [MayRequire("atk.anthrosonae")]
+        public static XenotypeDef ATK_Anthrodrake;
+        [MayRequire("atk.anthrosonae")]
+        public static XenotypeDef ATK_Anthrofox;
+        [MayRequire("atk.anthrosonae")]
+        public static XenotypeDef ATK_Anthrogriff;
+        [MayRequire("atk.anthrosonae")]
+        public static XenotypeDef ATK_Anthrohyena;
+        [MayRequire("atk.anthrosonae")]
+        public static XenotypeDef ATK_Anthropanda;
+        [MayRequire("atk.anthrosonae")]
+        public static XenotypeDef ATK_Anthrorabbit;
+        [MayRequire("atk.anthrosonae")]
+        public static XenotypeDef ATK_Anthrowolf;
+
         // Lewd shit
         [MayRequire("rjw.sexperience")]
         public static SkillDef Sex;

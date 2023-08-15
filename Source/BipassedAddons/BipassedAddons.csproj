@@ -42,7 +42,6 @@
     </Reference>
     <Reference Include="RJW">
       <HintPath>..\..\..\rjw-master\1.4\Assemblies\RJW.dll</HintPath>
-      <Private>False</Private>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Core" />
@@ -66,6 +65,8 @@
     <Compile Include="Building_PornCamera.cs" />
     <Compile Include="Building_SilverStash.cs" />
     <Compile Include="Building_VirtualRealityBed.cs" />
+    <Compile Include="CompProperties_Transfurmation.cs" />
+    <Compile Include="Comp_Transfurmation.cs" />
     <Compile Include="HediffComp_Recording.cs" />
     <Compile Include="HediffComp_VirtualReality.cs" />
     <Compile Include="HediffComp_VirtualRealityLewd.cs" />

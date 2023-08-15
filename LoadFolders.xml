@@ -17,5 +17,7 @@
 		<li IfModActive="kongkim.researchdata">1.4/Mods/Research Data</li>
 		<li IfModActive="wexman.mines">1.4/Mods/Mines</li>
 		<li IfModActive="noobertnebulous.vidtuber">1.4/Mods/Noobert Nebulous - Vidtuber</li>
+		<li IfModActive="vanillaexpanded.vnutriente">1.4/Mods/Vanilla Nutrient Paste Expanded</li>
+		<li IfModActive="atk.anthrosonae">1.4/Mods/Anthrosonae</li>
 	</v1.4>
 </loadFolders>
