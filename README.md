@@ -55,8 +55,13 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 ## [Optimization: Meats - C# Edition](https://steamcommunity.com/sharedfiles/filedetails/?id=2542931556)
 **Vegetarian:** New trait. Gives pawns that eat raw or cooked animal meat a small mood debuff.
 
+## [Anthrosoane](https://steamcommunity.com/sharedfiles/filedetails/?id=2902258418)
+**Transfurmation:** An ability that transforms a pawn into any random anthrosonae. If **RimJobWorld** is active, adds hypersexual trait and increases the size of private parts.
+
 ## [Capacity Deprivation and Prisoner Bindings Port](https://steamcommunity.com/sharedfiles/filedetails/?id=2884504605)
 **Slave Suppression Patch:** Adds a slave suppression offset to each of the bindings.
+
+**Lifestage Support:** Children can wear them now.
 
 ## [Identity: Dysphoria](https://steamcommunity.com/sharedfiles/filedetails/?id=2749597658)
 **Balanced Transgender Thought:** Lowers the mood bonus of being affirming from 5, 8, 14, 25 to 2, 4, 7, 14
@@ -73,13 +78,14 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 ## [Mines 2.0](https://steamcommunity.com/sharedfiles/filedetails/?id=2503894706)
 **Jewlery Patch:** Allows you to mine for the Jewlery ores like diamond, ruby, and sapphire.
 
+## [Vanilla Nutrient Paste Expanded](https://steamcommunity.com/sharedfiles/filedetails/?id=2920385763)
+**Nutrient slop patch:** Patches the nutrient dripper and grinder to be more in line with this mod's Core nutrient slop. I tride making my own network and everything, but the dripper wouldn't connect to the bed, and the tap is hardcoded to produce nutrient paste. Thanks Oskar, for hiring people to make such a shitty framework that nobody can easily use! You obviously care about the modding scene as a whole. 
+
 ## [UnderWhere](https://steamcommunity.com/sharedfiles/filedetails/?id=1870010563) 
 **Gender-Neutral Underwear:** Makes all underwear gender-neutral. If **Identity: Dysphoria** is active, provides a small boost of masculinity and femininity to male and female underwear.
 
 ## [RimJobWorld](https://www.loverslab.com/files/file/7257-rimjobworld/)
 **Rapeshroom:** New drug made from 10 humpshroom and 1 neutroamine. Induces a near-constant random rape mental break for about a day. Why you would ever use this outside of religious or lore reasons is beyond me.
-
-**Porn Camera:** Create a camera building that, for each pawn having sex in its radius, drops a sellable porn item. Pawn must be in radius of the camera to regenerate the urge to have sex. Optimal placements are in bedrooms.
 
 **Hyposexual:** New trait. Reduces sex drive to 0%.
 
@@ -91,6 +97,10 @@ Also adds a bed that refills the hunger need at the cost of 640w of electricity,
 **Cum Is Okay:** Removes the optimalityOffsetHumanlikes and increases nutrition from 0.01 to 0.05.
 
 # UNFINISHED - NOT WORKING
+
+## [RimJobWorld](https://www.loverslab.com/files/file/7257-rimjobworld/)
+**Porn Camera:** Create a camera building that, for each pawn having sex in its radius, drops a sellable porn item. Pawn must be in radius of the camera to regenerate the urge to have sex. Optimal placements are in bedrooms.
+Technically works, but only one on a map.
 
 ## [Milking Machine](https://github.com/bipassed/rjw-milking-machine)
 **Galactorrhea Implant:** Induces a permanent lactation at a slight consciousness debuff.

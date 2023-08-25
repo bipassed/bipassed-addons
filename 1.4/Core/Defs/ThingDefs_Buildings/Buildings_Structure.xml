@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Defs>
+
+    <ThingDef ParentName="Wall">
+        <defName>BI_WallEmbrasure</defName>
+        <label>embrasure</label>
+        <fillPercent>0.75</fillPercent>
+        <costStuffCount>4</costStuffCount>
+        <graphicData>
+            <texPath>Things/Building/Linked/WallEmbrasure</texPath>
+        </graphicData>
+    </ThingDef>
+
+</Defs>
