@@ -14,7 +14,7 @@
             <li>
                 <label>ate nutrient slop</label>
                 <description>I had to eat nutrient slop. I feel like I'm never going to the be same again...</description>
-                <baseMoodEffect>-30</baseMoodEffect>
+                <baseMoodEffect>-45</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>

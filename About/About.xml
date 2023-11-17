@@ -26,5 +26,10 @@
             <displayName>Vanilla Expanded Framework</displayName>
             <steamWorkshopUrl>https://steamcommunity.com/sharedfiles/filedetails/?id=1854607105</steamWorkshopUrl>
         </li>
+        <li>            <!-- For some reason my mod is incompatible with HugsLib, and the only thing that fixes it is RJW. I will attempt to fix this as soon as possible.-->
+            <packageId>rim.job.world</packageId>
+            <displayName>RimJobWorld</displayName>
+            <steamWorkshopUrl>https://gitgud.io/Ed86/rjw</steamWorkshopUrl>
+        </li>
     </modDependencies>
 </ModMetaData>

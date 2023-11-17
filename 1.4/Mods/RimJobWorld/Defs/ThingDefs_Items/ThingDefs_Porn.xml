@@ -30,7 +30,7 @@
         <label>normal porn (awful)</label>
         <description>Completely normal porn.</description>
         <statBases>
-            <MarketValue>10</MarketValue>
+            <MarketValue>5</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -39,7 +39,7 @@
         <label>normal porn (poor)</label>
         <description>Completely normal porn.</description>
         <statBases>
-            <MarketValue>15</MarketValue>
+            <MarketValue>7.5</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -48,7 +48,7 @@
         <label>normal porn (normal)</label>
         <description>Completely normal porn.</description>
         <statBases>
-            <MarketValue>20</MarketValue>
+            <MarketValue>10</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -57,7 +57,7 @@
         <label>normal porn (good)</label>
         <description>Completely normal porn.</description>
         <statBases>
-            <MarketValue>25</MarketValue>
+            <MarketValue>12.5</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -66,7 +66,7 @@
         <label>normal porn (excellent)</label>
         <description>Completely normal porn.</description>
         <statBases>
-            <MarketValue>30</MarketValue>
+            <MarketValue>15</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -75,7 +75,7 @@
         <label>normal porn (masterwork)</label>
         <description>Completely normal porn.</description>
         <statBases>
-            <MarketValue>50</MarketValue>
+            <MarketValue>25</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -84,7 +84,7 @@
         <label>normal porn (legendary)</label>
         <description>Completely normal porn.</description>
         <statBases>
-            <MarketValue>100</MarketValue>
+            <MarketValue>50</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -112,7 +112,7 @@
         <label>masturbation porn (normal)</label>
         <description>Masturbation porn.</description>
         <statBases>
-            <MarketValue>5</MarketValue>
+            <MarketValue>2.5</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -121,7 +121,7 @@
         <label>masturbation porn (good)</label>
         <description>Masturbation porn.</description>
         <statBases>
-            <MarketValue>6</MarketValue>
+            <MarketValue>3</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -130,7 +130,7 @@
         <label>masturbation porn (excellent)</label>
         <description>Masturbation porn.</description>
         <statBases>
-            <MarketValue>8</MarketValue>
+            <MarketValue>4</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -139,7 +139,7 @@
         <label>masturbation porn (masterwork)</label>
         <description>Masturbation porn.</description>
         <statBases>
-            <MarketValue>13</MarketValue>
+            <MarketValue>6.5</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -148,7 +148,7 @@
         <label>masturbation porn (legendary)</label>
         <description>Masturbation porn.</description>
         <statBases>
-            <MarketValue>25</MarketValue>
+            <MarketValue>12.5</MarketValue>
         </statBases>
     </ThingDef>
 
@@ -158,7 +158,7 @@
         <label>bestiality porn (awful)</label>
         <description>Bestiality porn.</description>
         <statBases>
-            <MarketValue>12</MarketValue>            <!-- 0.25 -->
+            <MarketValue>6</MarketValue>            <!-- 0.25 -->
         </statBases>
     </ThingDef>
 
@@ -167,7 +167,7 @@
         <label>bestiality porn (poor)</label>
         <description>Bestiality porn.</description>
         <statBases>
-            <MarketValue>25</MarketValue>            <!-- 0.50 -->
+            <MarketValue>12.5</MarketValue>            <!-- 0.50 -->
         </statBases>
     </ThingDef>
 
@@ -176,7 +176,7 @@
         <label>bestiality porn (normal)</label>
         <description>Bestiality porn.</description>
         <statBases>
-            <MarketValue>50</MarketValue>            <!-- 1.0 -->
+            <MarketValue>25</MarketValue>            <!-- 1.0 -->
         </statBases>
     </ThingDef>
 
@@ -185,7 +185,7 @@
         <label>bestiality porn (good)</label>
         <description>Bestiality porn.</description>
         <statBases>
-            <MarketValue>62</MarketValue>            <!-- 1.25 -->
+            <MarketValue>30</MarketValue>            <!-- 1.25 -->
         </statBases>
     </ThingDef>
 
@@ -194,7 +194,7 @@
         <label>bestiality porn (excellent)</label>
         <description>Bestiality porn.</description>
         <statBases>
-            <MarketValue>75</MarketValue>            <!-- 1.5 -->
+            <MarketValue>37.5</MarketValue>            <!-- 1.5 -->
         </statBases>
     </ThingDef>
 
@@ -203,7 +203,7 @@
         <label>bestiality porn (masterwork)</label>
         <description>Bestiality porn.</description>
         <statBases>
-            <MarketValue>125</MarketValue>            <!-- 2.5 -->
+            <MarketValue>62.5</MarketValue>            <!-- 2.5 -->
         </statBases>
     </ThingDef>
 
@@ -212,7 +212,7 @@
         <label>bestiality porn (legendary)</label>
         <description>Bestiality porn.</description>
         <statBases>
-            <MarketValue>250</MarketValue>            <!-- 5 -->
+            <MarketValue>125</MarketValue>            <!-- 5 -->
         </statBases>
     </ThingDef>
 
@@ -222,7 +222,7 @@
         <label>rape porn (awful)</label>
         <description>Rape porn.</description>
         <statBases>
-            <MarketValue>25</MarketValue>            <!-- 0.25 -->
+            <MarketValue>12.5</MarketValue>            <!-- 0.25 -->
         </statBases>
     </ThingDef>
 
@@ -231,7 +231,7 @@
         <label>rape porn (poor)</label>
         <description>Rape porn.</description>
         <statBases>
-            <MarketValue>50</MarketValue>            <!-- 0.50 -->
+            <MarketValue>25</MarketValue>            <!-- 0.50 -->
         </statBases>
     </ThingDef>
 
@@ -240,7 +240,7 @@
         <label>rape porn (normal)</label>
         <description>Rape porn.</description>
         <statBases>
-            <MarketValue>100</MarketValue>            <!-- 1.0 -->
+            <MarketValue>50</MarketValue>            <!-- 1.0 -->
         </statBases>
     </ThingDef>
 
@@ -249,7 +249,7 @@
         <label>rape porn (good)</label>
         <description>Rape porn.</description>
         <statBases>
-            <MarketValue>125</MarketValue>            <!-- 1.25 -->
+            <MarketValue>62.5</MarketValue>            <!-- 1.25 -->
         </statBases>
     </ThingDef>
 
@@ -258,7 +258,7 @@
         <label>rape porn (excellent)</label>
         <description>Rape porn.</description>
         <statBases>
-            <MarketValue>150</MarketValue>            <!-- 1.5 -->
+            <MarketValue>75</MarketValue>            <!-- 1.5 -->
         </statBases>
     </ThingDef>
 
@@ -267,7 +267,7 @@
         <label>rape porn (masterwork)</label>
         <description>Rape porn.</description>
         <statBases>
-            <MarketValue>250</MarketValue>            <!-- 2.5 -->
+            <MarketValue>125</MarketValue>            <!-- 2.5 -->
         </statBases>
     </ThingDef>
 
@@ -276,7 +276,7 @@
         <label>rape porn (legendary)</label>
         <description>Rape porn.</description>
         <statBases>
-            <MarketValue>500</MarketValue>            <!-- 5 -->
+            <MarketValue>250</MarketValue>            <!-- 5 -->
         </statBases>
     </ThingDef>
 
@@ -286,7 +286,7 @@
         <label>bestiality rape porn (awful)</label>
         <description>BestialityRape porn.</description>
         <statBases>
-            <MarketValue>56</MarketValue>            <!-- 0.25 -->
+            <MarketValue>28</MarketValue>            <!-- 0.25 -->
         </statBases>
     </ThingDef>
 
@@ -295,7 +295,7 @@
         <label>bestiality rape porn (poor)</label>
         <description>BestialityRape porn.</description>
         <statBases>
-            <MarketValue>112</MarketValue>            <!-- 0.50 -->
+            <MarketValue>56</MarketValue>            <!-- 0.50 -->
         </statBases>
     </ThingDef>
 
@@ -304,7 +304,7 @@
         <label>bestiality rape porn (normal)</label>
         <description>BestialityRape porn.</description>
         <statBases>
-            <MarketValue>225</MarketValue>            <!-- 1.0 -->
+            <MarketValue>112.5</MarketValue>            <!-- 1.0 -->
         </statBases>
     </ThingDef>
 
@@ -313,7 +313,7 @@
         <label>bestiality rape porn (good)</label>
         <description>BestialityRape porn.</description>
         <statBases>
-            <MarketValue>281</MarketValue>            <!-- 1.25 -->
+            <MarketValue>140.5</MarketValue>            <!-- 1.25 -->
         </statBases>
     </ThingDef>
 
@@ -322,7 +322,7 @@
         <label>bestiality rape porn (excellent)</label>
         <description>BestialityRape porn.</description>
         <statBases>
-            <MarketValue>337</MarketValue>            <!-- 1.5 -->
+            <MarketValue>168.5</MarketValue>            <!-- 1.5 -->
         </statBases>
     </ThingDef>
 
@@ -331,7 +331,7 @@
         <label>bestiality rape porn (masterwork)</label>
         <description>BestialityRape porn.</description>
         <statBases>
-            <MarketValue>562</MarketValue>            <!-- 2.5 -->
+            <MarketValue>281</MarketValue>            <!-- 2.5 -->
         </statBases>
     </ThingDef>
 
@@ -340,7 +340,7 @@
         <label>bestiality rape porn (legendary)</label>
         <description>BestialityRape porn.</description>
         <statBases>
-            <MarketValue>1125</MarketValue>            <!-- 5 -->
+            <MarketValue>562.5</MarketValue>            <!-- 5 -->
         </statBases>
     </ThingDef>
 

@@ -95,8 +95,6 @@ namespace BipassedAddons
         public static ThingDef FilthCum;
         [MayRequire("rim.job.world")]
         public static ThingDef BI_PornCamera;
-        [MayRequire("rim.job.world")]
-        public static HediffDef BI_RecordingHediff;
 
         // Normal sex JobDefs
         [MayRequire("rim.job.world")]

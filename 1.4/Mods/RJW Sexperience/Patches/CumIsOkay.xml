@@ -5,6 +5,14 @@
         <xpath>Defs/ThingDef[defName="GatheredCum"]/ingestible/optimalityOffsetHumanlikes</xpath>
     </Operation>
 
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="GatheredCum"]/ingestible/tasteThought</xpath>
+    </Operation>
+
+    <Operation Class="PatchOperationRemove">
+        <xpath>Defs/ThingDef[defName="GatheredCum"]/ingestible/specialThoughtAsIngredient</xpath>
+    </Operation>
+
     <Operation Class="PatchOperationReplace">
         <xpath>Defs/ThingDef[defName="GatheredCum"]/statBases/Nutrition</xpath>
         <value>

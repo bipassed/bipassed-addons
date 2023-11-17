@@ -19,5 +19,6 @@
 		<li IfModActive="noobertnebulous.vidtuber">1.4/Mods/Noobert Nebulous - Vidtuber</li>
 		<li IfModActive="vanillaexpanded.vnutriente">1.4/Mods/Vanilla Nutrient Paste Expanded</li>
 		<li IfModActive="atk.anthrosonae">1.4/Mods/Anthrosonae</li>
+		<li IfModActive="VanillaExpanded.VPlantsE">1.4/Mods/Vanilla Plants Expanded</li>
 	</v1.4>
 </loadFolders>

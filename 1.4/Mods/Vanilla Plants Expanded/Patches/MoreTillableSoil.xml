@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Patch>
+
+    <Operation Class="PatchOperationAdd">
+        <xpath>Defs/VanillaPlantsExpanded.TillableTerrainDef[defName="VCE_AcceptedTillableTerrains"]/terrains</xpath>
+        <value>
+            <li>MossyTerrain</li>
+            <li>MarshyTerrain</li>
+            <li>SoilRich</li>
+            <li>Gravel</li>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/TerrainDef[defName="VCE_TilledSoil"]/fertility</xpath>
+        <value>
+            <fertility>1.8</fertility>
+        </value>
+    </Operation>
+
+    <Operation Class="PatchOperationReplace">
+        <xpath>Defs/TerrainDef[defName="VCE_TilledSoil"]/statBases/WorkToBuild</xpath>
+        <value>
+            <WorkToBuild>400</WorkToBuild>
+        </value>
+    </Operation>
+
+</Patch>

@@ -67,14 +67,12 @@
     <Compile Include="Building_VirtualRealityBed.cs" />
     <Compile Include="CompProperties_Transfurmation.cs" />
     <Compile Include="Comp_Transfurmation.cs" />
-    <Compile Include="HediffComp_Recording.cs" />
     <Compile Include="HediffComp_VirtualReality.cs" />
     <Compile Include="HediffComp_VirtualRealityLewd.cs" />
     <Compile Include="LewdWorker.cs" />
     <Compile Include="Main.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Content Include="Test.txt" />
-    <Compile Include="ThoughtWorker_RecordingPorn.cs" />
     <Compile Include="Util.cs" />
     <Compile Include="VariousDefOf.cs" />
   </ItemGroup>

@@ -42,7 +42,7 @@
         <rotatable>false</rotatable>
         <canOverlapZones>false</canOverlapZones>
         <minifiedDef>MinifiedThing</minifiedDef>
-        <specialDisplayRadius>4.9</specialDisplayRadius>
+        <specialDisplayRadius>5.9</specialDisplayRadius>
         <tradeability>Sellable</tradeability>
         <tickerType>Normal</tickerType>
         <designationCategory>Furniture</designationCategory>

@@ -8,7 +8,7 @@
         <label>necro porn (awful)</label>
         <description>Necro porn.</description>
         <statBases>
-            <MarketValue>37</MarketValue>            <!-- 0.25 -->
+            <MarketValue>18.5</MarketValue>            <!-- 0.25 -->
         </statBases>
     </ThingDef>
 
@@ -17,7 +17,7 @@
         <label>necro porn (poor)</label>
         <description>Necro porn.</description>
         <statBases>
-            <MarketValue>75</MarketValue>            <!-- 0.50 -->
+            <MarketValue>37.5</MarketValue>            <!-- 0.50 -->
         </statBases>
     </ThingDef>
 
@@ -26,7 +26,7 @@
         <label>necro porn (normal)</label>
         <description>Necro porn.</description>
         <statBases>
-            <MarketValue>150</MarketValue>            <!-- 1.0 -->
+            <MarketValue>75</MarketValue>            <!-- 1.0 -->
         </statBases>
     </ThingDef>
 
@@ -35,7 +35,7 @@
         <label>necro porn (good)</label>
         <description>Necro porn.</description>
         <statBases>
-            <MarketValue>187</MarketValue>            <!-- 1.25 -->
+            <MarketValue>93.5</MarketValue>            <!-- 1.25 -->
         </statBases>
     </ThingDef>
 
@@ -44,7 +44,7 @@
         <label>necro porn (excellent)</label>
         <description>Necro porn.</description>
         <statBases>
-            <MarketValue>225</MarketValue>            <!-- 1.5 -->
+            <MarketValue>112.5</MarketValue>            <!-- 1.5 -->
         </statBases>
     </ThingDef>
 
@@ -53,7 +53,7 @@
         <label>necro porn (masterwork)</label>
         <description>Necro porn.</description>
         <statBases>
-            <MarketValue>375</MarketValue>            <!-- 2.5 -->
+            <MarketValue>187.5</MarketValue>            <!-- 2.5 -->
         </statBases>
     </ThingDef>
 
@@ -62,7 +62,7 @@
         <label>necro porn (legendary)</label>
         <description>Necro porn.</description>
         <statBases>
-            <MarketValue>750</MarketValue>            <!-- 5 -->
+            <MarketValue>375</MarketValue>            <!-- 5 -->
         </statBases>
     </ThingDef>
 
@@ -72,7 +72,7 @@
         <label>necro bestiality porn (awful)</label>
         <description>Necro bestiality porn.</description>
         <statBases>
-            <MarketValue>75</MarketValue>            <!-- 0.25 -->
+            <MarketValue>37.5</MarketValue>            <!-- 0.25 -->
         </statBases>
     </ThingDef>
 
@@ -81,7 +81,7 @@
         <label>necro bestiality porn (poor)</label>
         <description>Necro bestiality porn.</description>
         <statBases>
-            <MarketValue>150</MarketValue>            <!-- 0.50 -->
+            <MarketValue>75</MarketValue>            <!-- 0.50 -->
         </statBases>
     </ThingDef>
 
@@ -90,7 +90,7 @@
         <label>necro bestiality porn (normal)</label>
         <description>Necro bestiality porn.</description>
         <statBases>
-            <MarketValue>300</MarketValue>            <!-- 1.0 -->
+            <MarketValue>150</MarketValue>            <!-- 1.0 -->
         </statBases>
     </ThingDef>
 
@@ -99,7 +99,7 @@
         <label>necro bestiality porn (good)</label>
         <description>Necro bestiality porn.</description>
         <statBases>
-            <MarketValue>375</MarketValue>            <!-- 1.25 -->
+            <MarketValue>187.5</MarketValue>            <!-- 1.25 -->
         </statBases>
     </ThingDef>
 
@@ -108,7 +108,7 @@
         <label>necro bestiality porn (excellent)</label>
         <description>Necro bestiality porn.</description>
         <statBases>
-            <MarketValue>450</MarketValue>            <!-- 1.5 -->
+            <MarketValue>225</MarketValue>            <!-- 1.5 -->
         </statBases>
     </ThingDef>
 
@@ -117,7 +117,7 @@
         <label>necro bestiality porn (masterwork)</label>
         <description>Necro bestiality porn.</description>
         <statBases>
-            <MarketValue>750</MarketValue>            <!-- 2.5 -->
+            <MarketValue>375</MarketValue>            <!-- 2.5 -->
         </statBases>
     </ThingDef>
 
@@ -126,7 +126,7 @@
         <label>necro bestiality porn (legendary)</label>
         <description>Necro bestiality porn.</description>
         <statBases>
-            <MarketValue>1500</MarketValue>            <!-- 5 -->
+            <MarketValue>750</MarketValue>            <!-- 5 -->
         </statBases>
     </ThingDef>
 

@@ -11,7 +11,7 @@
             <li>
                 <label>in virtual reality</label>
                 <description>This new feeling, this new world... It's unreal, unlike anything I've seen before. Truly a glorious testament to the ingenuity of humanity.</description>
-                <baseMoodEffect>1000</baseMoodEffect>
+                <baseMoodEffect>100</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>

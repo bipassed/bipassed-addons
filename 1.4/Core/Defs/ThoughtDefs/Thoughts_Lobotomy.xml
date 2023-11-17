@@ -11,7 +11,7 @@
             <li>
                 <label>lobotomy</label>
                 <description>Huh? Huh whuh? Huh... Whuh?</description>
-                <baseMoodEffect>1000</baseMoodEffect>
+                <baseMoodEffect>100</baseMoodEffect>
             </li>
         </stages>
     </ThoughtDef>
